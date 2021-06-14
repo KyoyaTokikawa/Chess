@@ -6,6 +6,7 @@ import random
 import copy
 from AI.deep_Agent import *
 from AI.deep_q import *
+import time
 l = [] 
 king = 100
 queen = 200
@@ -88,6 +89,7 @@ class master():
             state = board_status
             state = torch.from_numpy(state).type(torch.FloatTensor)
             state = torch.unsqueeze(state, 0)
+            start = time.time()
             while True:
                 # self.Board.print_board()
                 if self.turn == self.white:
@@ -95,6 +97,7 @@ class master():
                     self.game_record.append(self.count)
                     # print(self.count)
                     player = self.white
+                    enemy = self.black
                     piece_amount = self.Board(self.turn)
                     next = self.black
                     if piece_amount == self.piece_amount:
@@ -103,6 +106,7 @@ class master():
                         self.piece_amount = piece_amount
                 else:
                     player = self.black
+                    enemy = self.white
                     self.Board(self.turn)
                     next = self.white
 
@@ -116,9 +120,11 @@ class master():
                             legal_list.append(key)
                     if self.turn == self.white:
                         key = player.agent.get_action(state, gameNo, legal_list)
+                        next_legal = legal_list
                         rec = self.gamerecord_dic[key]
                     else:
                         key = choose_random(legal_list)
+                        next_legal = legal_list
                         rec = self.gamerecord_dic[key]
                     piece_info = player.move_dic[rec]
                     piece, move, gamerecord = piece_info
@@ -131,35 +137,55 @@ class master():
                     else:
                         self.count_fifty = self.Board.move(piece, move, self.count_fifty)
                     self.game_record.append(gamerecord)
-                    self.turn = next
                     # self.Board.print_board()
                     next_status = change_board(self.Board.board)
                     state_next = next_status
                     state_next = torch.from_numpy(state_next).type(torch.FloatTensor)
                     state = state_next
-                    player.temp_memory.append((state, key, state_next, self.count))
+                    temp_next_legal = []
+                    player.temp_memory.append([state, key, state_next, temp_next_legal, self.count])
+                    if self.turn == self.white:
+                        if len(enemy.temp_memory) > 0:
+                            enemy.temp_memory[len(enemy.temp_memory) - 1][3] = list(next_legal)
+                    else:
+                        enemy.temp_memory[len(enemy.temp_memory) - 1][3] = list(next_legal)
                     if self.count_fifty == 50:
-                        print('DRAW')
+                        player.temp_memory[self.count - 1][2] = None
+                        end = time.time()
+                        print('DRAW',end=' ')
+                        print(end - start)
                         much = 0
                         break
 
+                    self.turn = next
                 else:
                     if self.turn == self.white:
                         king = self.Board.white_king
+                        enemy.temp_memory[len(enemy.temp_memory) - 1][2] = None
+                        # player.temp_memory[len(player.temp_memory) - 1][2] = None
+                        winner = self.black
                         much = -1
                     else:
                         king = self.Board.black_king
+                        enemy.temp_memory[len(enemy.temp_memory) - 1][2] = None
+                        # player.temp_memory[len(player.temp_memory) - 1][2] = None
+                        winner = self.white
                         much = 1
                     king_position = (king.file, king.rank)
                     if king_position in player.enemy.attack_list:
-                        print(self.turn.name, end='')
-                        print('LOSE')
+                        end = time.time()
+                        print(winner.name, end=' ')
+                        print('WIN',end=' ')
+                        print(end - start)
                         break
                     else:
+                        enemy.temp_memory[len(enemy.temp_memory) - 1][2] = None
                         much = 0
-                        print('stalemate')
+                        end = time.time()
+                        print('stalemate', end=' ')
+                        print(end - start)
                     break
-            print(self.game_record)
+            # print(self.game_record)
             return much, self.white.temp_memory, self.black.temp_memory
 
     def check_king(self, player):

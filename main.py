@@ -23,9 +23,11 @@ while True:
     elif much == -1:
         black_win += 1
     for w_val in white:
-        white_agent.memorize(w_val[0], w_val[1], w_val[2], torch.LongTensor([w_val[3] * 1 * much]))
-        if gameNo % 15 == 0:
-            white_agent.update_q_network()
+        if len(w_val[3]) == 0:
+            a = a
+        white_agent.memorize(w_val[0], torch.tensor([w_val[1]]), w_val[2], [w_val[3]], torch.LongTensor([w_val[4] * 1 * much]))
+    if gameNo % 1 == 0:
+        white_agent.update_q_network()
     # for b_val in black:
     #     black_agent.memorize(b_val[0], b_val[1], b_val[2], torch.LongTensor([b_val[3] * -1 * much]))
     #     black_agent.update_q_network()

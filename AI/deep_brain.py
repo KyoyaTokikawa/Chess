@@ -10,9 +10,9 @@ from .deep_net import *
 from .ReplayMemory import *
 from src.util import *
 
-Transition = namedtuple('Transicion', ('state', 'action', 'next_state', 'reward'))
+Transition = namedtuple('Transicion', ('state', 'action', 'next_state', 'next_action', 'reward'))
 
-BATCH_SIZE = 200
+BATCH_SIZE = 100
 # CAPACITY = 10000000
 GAMMA = 0.99 # 時間割引率
 
@@ -25,7 +25,6 @@ class Brain:
         
         # NNを構築
         self.model = Net(num_states, num_actions)
-        
         print(self.model) # ネットワークの形を出力
         
         # target_net
@@ -58,18 +57,19 @@ class Brain:
         # それを torch.FloatTensor of BATCH_SIZE x 4に変換する
         
         state_batch = torch.cat(batch.state)
-        count = 0
-        l = []
-        for s in state_batch:
-            temp = []
-            if temp.count(s) > 0:
-                count = temp.count(s) + 1
-            temp.append(s)
-            l.append(count)
-        action_batch = torch.tensor(l)
-        action_batch = torch.unsqueeze(action_batch, 0)
+        action_batch = torch.cat(batch.action).unsqueeze(0)
         reward_batch = torch.cat(batch.reward)
+        non_final_next_actions_list = []
         non_final_next_states = torch.cat([s for s in batch.next_state if s is not None])
+        next_action = batch.next_action
+        for next_actions in next_action:
+            if next_actions[0] is not None:
+                a = [next_actions[0]]
+                b = (BATCH_SIZE - len(next_actions))
+                c = a * b
+                temp = torch.tensor(next_actions)
+                non_final_next_actions_list.append(temp)
+        non_final_next_actions_list = non_final_next_actions_list
         
         
         # 3. 教師信号となるQ(s_t, a_t)値を求める
@@ -91,14 +91,20 @@ class Brain:
         
         # まずは全部0にしておく
         next_state_values = torch.zeros(BATCH_SIZE)
-        
         # 次の状態があるindexの最大Q値を求める
         # 出力にアクセスし、max(1)で列方向の最大値の[値、index]を求める
         # そしてそのQ値を取り出します
         self.target_net.eval()
-        next_state_values[non_final_mask] = self.target_net(
-            non_final_next_states).max(1)[0].detach()
-        
+        target = self.target_net(non_final_next_states)
+        for num in range(0, BATCH_SIZE):
+            a = non_final_mask[num].item()
+            bol = a == 1
+            if  a == 1:
+                for next_actions in non_final_next_actions_list[num]:
+                    temp = list()
+                    for action in next_actions:
+                        temp.append(target[0][action])
+            next_state_values[num] = -max(temp)
         # 3.4 教師となるQ値を、Q学習の式から求める
         expected_state_action_values = (next_state_values * GAMMA) + reward_batch
         

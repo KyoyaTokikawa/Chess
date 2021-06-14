@@ -20,9 +20,9 @@ class Agent:
         action = self.brain.decide_action(state, episode, attck_move_dic)
         return action
     
-    def memorize(self, state, action, state_next, reward):
+    def memorize(self, state, action, state_next, next_action, reward):
         '''memoryオブジェクトに、state, action, state_next, rewardの内容を保存する'''
-        self.brain.memory.push(state, action, state_next, reward)
+        self.brain.memory.push(state, action, state_next, next_action, reward)
     
     def predict_action(self, state):
         action = self.brain.brain_predict(state)

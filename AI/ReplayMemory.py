@@ -1,7 +1,7 @@
 import random
 
 from collections import namedtuple
-Transition = namedtuple('Transicion', ('state', 'action', 'next_state', 'reward'))
+Transition = namedtuple('Transicion', ('state', 'action', 'next_state', 'next_action', 'reward'))
 
 class ReplayMemory:
     
@@ -10,12 +10,12 @@ class ReplayMemory:
         self.memory = [] # 経験を保存するリスト
         self.index = 0 # 保存するindexを表す変数
     
-    def push(self, state, action, state_next, reward):
+    def push(self, state, action, state_next, next_action, reward):
         '''trasicion = (state, action, state_next, reward)をメモリ保存する'''
         self.memory.append(None) # メモリが満タンじゃないときは足す
             
         # namedtupleのTransitionを用意し、値とフィールド名をペアにする
-        self.memory[self.index] = Transition(state, action, state_next, reward)
+        self.memory[self.index] = Transition(state, action, state_next, next_action, reward)
             
         self.index = (self.index + 1) # 保存するindexを1つずらす
         
