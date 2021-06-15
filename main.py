@@ -3,21 +3,28 @@ import time
 gameNo = 0
 
 gamerecord_dic = gamerecord()
-white_agent = Agent(64, len(gamerecord_dic))
-black_agent = Agent(64, len(gamerecord_dic))
+# adam or sgd, batchsize, epsilon, reword, Rate of count for reward
+sample_a = ['Adam', 50, 0.5, 0.2]
+parameter = sample_a
+white_agent = Agent(64, len(gamerecord_dic), parameter)
+black_agent = Agent(64, len(gamerecord_dic), parameter)
+
+
 
 draw = 0
 white_win = 0
 black_win = 0
 print(len(gamerecord_dic))
-print(torch.cuda.is_available())
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(device)
 a = a
 while True:
     gameNo += 1
-    instance = master(white_agent, black_agent, gamerecord_dic)
+    instance = master(white_agent, black_agent, gamerecord_dic, device)
     much, white, black = instance(gameNo)
     if much == 0:
         draw += 1
+        much = -0.1
     elif much == 1:
         white_win += 1
     elif much == -1:
@@ -25,7 +32,7 @@ while True:
     for w_val in white:
         if len(w_val[3]) == 0:
             a = a
-        white_agent.memorize(w_val[0], torch.tensor([w_val[1]]), w_val[2], [w_val[3]], torch.LongTensor([w_val[4] * 1 * much]))
+        white_agent.memorize(w_val[0], torch.tensor([w_val[1]]), w_val[2], [w_val[3]], torch.LongTensor([w_val[4] * much]))
     if gameNo % 1 == 0:
         start = time.time()
         white_agent.update_q_network()
@@ -41,3 +48,6 @@ while True:
             white_result = 'white:' + str(white_win)
             black_result = 'black:' + str(black_win) 
             print(str(gameNo) + ' ' + draw_result + ' ' + white_result + ' ' + black_result, file=f)
+        print(str(gameNo) + ' ' + draw_result + ' ' + white_result + ' ' + black_result)
+
+

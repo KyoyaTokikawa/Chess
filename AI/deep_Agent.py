@@ -1,9 +1,10 @@
 from .deep_brain import *
 
 class Agent:
-    def __init__(self, num_states, num_actions):
+    def __init__(self, num_states, num_actions, param):
         '''課題の状態と行動の数を設定する'''
-        self.brain = Brain(num_states, num_actions)
+        self.brain = Brain(num_states, num_actions, param)
+        self.reward_rate = param[3]
 
         a = 1
         # エージェントが行動を決定するための頭脳を生成

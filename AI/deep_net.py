@@ -37,6 +37,5 @@ class Net(nn.Module):
             h7 = F.relu(self.fc5(h6))
             h8 = F.relu(self.fc5(h7))
             h9 = F.relu(self.fc5(h8))
-            h10 = F.relu(self.fc5(h9))
-        output = self.fc10(h10)
+        output = self.fc10(h9)
         return output

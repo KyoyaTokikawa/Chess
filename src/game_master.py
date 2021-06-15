@@ -18,7 +18,7 @@ pown = 600
 a, b, c, d, e, f, g, h = 1, 2, 3, 4, 5, 6, 7, 8
 
 class master():
-    def __init__(self, white_agent, black_agent, gamerecord_dic):
+    def __init__(self, white_agent, black_agent, gamerecord_dic, device):
         self.gamerecord_dic = gamerecord_dic
         self.white = player(1, white_agent)
         self.black = player(-1, black_agent)
@@ -31,6 +31,7 @@ class master():
         self.count_fifty = 0
         self.game_record = []
         self.count = 0
+        self.device = device
 
     def __call__(self, gameNo):
         list_check = False
@@ -90,7 +91,7 @@ class master():
             board_status = change_board(self.Board.board)
             state = board_status
             state = torch.from_numpy(state).type(torch.FloatTensor)
-            state = torch.unsqueeze(state, 0)
+            state = torch.unsqueeze(state, 0).to(self.device)
             start = time.time()
             while True:
                 # self.Board.print_board()
@@ -143,9 +144,9 @@ class master():
                     next_status = change_board(self.Board.board)
                     state_next = next_status
                     state_next = torch.from_numpy(state_next).type(torch.FloatTensor)
-                    state = state_next
+                    state = state_next.to(self.device)
                     temp_next_legal = []
-                    player.temp_memory.append([state, key, state_next, temp_next_legal, self.count])
+                    player.temp_memory.append([state, key, state_next, temp_next_legal, self.count * player.agent.reward_rate])
                     if self.turn == self.white:
                         if len(enemy.temp_memory) > 0:
                             enemy.temp_memory[len(enemy.temp_memory) - 1][3] = list(next_legal)
@@ -154,8 +155,8 @@ class master():
                     if self.count_fifty == 50:
                         player.temp_memory[self.count - 1][2] = None
                         end = time.time()
-                        print('DRAW',end=' ')
-                        print(end - start)
+                        # print('DRAW',end=' ')
+                        print(str(self.count) + ':'+ str(end - start))
                         much = 0
                         break
 
@@ -176,16 +177,16 @@ class master():
                     king_position = (king.file, king.rank)
                     if king_position in player.enemy.attack_list:
                         end = time.time()
-                        print(winner.name, end=' ')
-                        print('WIN',end=' ')
-                        print(end - start)
+                        # print(winner.name, end=' ')
+                        # print('WIN',end=' ')
+                        print(str(self.count) + ':'+ str(end - start))
                         break
                     else:
                         enemy.temp_memory[len(enemy.temp_memory) - 1][2] = None
                         much = 0
                         end = time.time()
-                        print('stalemate', end=' ')
-                        print(end - start)
+                        # print('stalemate', end=' ')
+                        print(str(self.count) + ':'+ str(end - start))
                     break
             # print(self.game_record)
             return much, self.white.temp_memory, self.black.temp_memory
