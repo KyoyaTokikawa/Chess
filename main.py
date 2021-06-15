@@ -1,5 +1,5 @@
 from src.game_master import *
-
+import time
 gameNo = 0
 
 gamerecord_dic = gamerecord()
@@ -27,7 +27,10 @@ while True:
             a = a
         white_agent.memorize(w_val[0], torch.tensor([w_val[1]]), w_val[2], [w_val[3]], torch.LongTensor([w_val[4] * 1 * much]))
     if gameNo % 1 == 0:
+        start = time.time()
         white_agent.update_q_network()
+        end = time.time()
+        print(end - start)
     # for b_val in black:
     #     black_agent.memorize(b_val[0], b_val[1], b_val[2], torch.LongTensor([b_val[3] * -1 * much]))
     #     black_agent.update_q_network()

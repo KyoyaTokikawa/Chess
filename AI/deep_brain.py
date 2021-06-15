@@ -130,7 +130,7 @@ class Brain:
     
     def decide_action(self, state, episode, legal_list):
         '''現在の状態に応じて、行動を決定する'''
-        epsilon = 0.41 * (1 / (episode + 1))
+        epsilon = 0.41 * (1 / (episode / 0.3 + 1))
         
         if epsilon <= np.random.uniform(0, 1):
             self.model.eval()
