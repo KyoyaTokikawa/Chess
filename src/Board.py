@@ -36,8 +36,8 @@ class board():
                     self.Create_Piece(position, 'POWN')
 
     def __call__(self, turn):
-        piece_amount = self.scan_board(turn)
-        return piece_amount
+        piece_amount, draw = self.scan_board(turn)
+        return piece_amount, draw
 
     def scan_board(self, turn):
         self.white()
@@ -51,6 +51,43 @@ class board():
                 white_piece.append(piece)
             else:
                 black_piece.append(piece)
+        bol = True
+        if len(white_piece) < 4 and len(black_piece) < 4:
+            for piece in white_piece:
+                bishop_count = 0
+                knight_count = 0
+                if type(piece) == Pown:
+                    bol = False
+                elif type(piece) == Rook:
+                    bol = False
+                elif type(piece) == Queen:
+                    bol = False
+                elif type(piece) == Knight:
+                    knight_count += 1
+                elif type(piece) == Bishop:
+                    bishop_count += 1
+                    if bishop_count == 2:
+                        bol = False
+                if knight_count > 0 and bishop_count > 0:
+                    bol = False
+
+                bishop_count = 0
+                knight_count = 0
+            for piece in black_piece:
+                if type(piece) == Pown:
+                    bol = False
+                elif type(piece) == Rook:
+                    bol = False
+                elif type(piece) == Queen:
+                    bol = False
+                elif type(piece) == Knight:
+                    knight_count += 1
+                elif type(piece) == Bishop:
+                    bishop_count += 1
+                    if bishop_count == 2:
+                        bol = False
+                if knight_count > 0 and bishop_count > 0:
+                    bol = False
 
         if turn == self.white:
             self.scan_piece(black_piece, turn)
@@ -58,8 +95,7 @@ class board():
         else:
             self.scan_piece(white_piece, turn)
             self.scan_piece(black_piece, turn)
-
-        return len(piece_all)
+        return len(piece_all), bol
     def scan_piece(self, piece_list, turn):
         for piece in piece_list:
             if type(piece) == King:

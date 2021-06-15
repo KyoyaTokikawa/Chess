@@ -41,7 +41,7 @@ class master():
                     self.game_record.append(self.count)
                     print(self.count)
                     player = self.white
-                    piece_amount = self.Board(self.turn)
+                    piece_amount, draw = self.Board(self.turn)
                     self.turn = self.black
                     if piece_amount == self.piece_amount:
                         self.count_fifty += 1
@@ -49,10 +49,12 @@ class master():
                         self.piece_amount = piece_amount
                 else:
                     player = self.black
-                    self.Board(self.turn)
+                    temp_piece_amount,draw = self.Board(self.turn)
                     self.turn = self.white
-
-                game_continue = self.check_king(player)
+                if draw == False:
+                    game_continue = self.check_king(player)
+                else:
+                    game_continue = False
                 if game_continue:
                     # key = choose_random(player)
                     piece_info = player.move_dic[key]

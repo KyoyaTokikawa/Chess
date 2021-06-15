@@ -17,10 +17,17 @@ class Net(nn.Module):
         self.fc6 = nn.Linear(128, num_actions)
     
     def forward(self, x):
-        h1 = F.relu(self.fc1(x)) # 活性化関数にはReLu
-        h2 = F.relu(self.fc2(h1))
-        h3 = F.relu(self.fc3(h2))
-        h4 = F.relu(self.fc4(h3))
-        h5 = F.relu(self.fc5(h4))
+        if False:
+            h1 = F.leaky_relu(self.fc1(x)) # 活性化関数にはReLu
+            h2 = F.leaky_relu(self.fc2(h1))
+            h3 = F.leaky_relu(self.fc3(h2))
+            h4 = F.leaky_relu(self.fc4(h3))
+            h5 = F.leaky_relu(self.fc5(h4))
+        else:
+            h1 = F.relu(self.fc1(x)) # 活性化関数にはReLu
+            h2 = F.relu(self.fc2(h1))
+            h3 = F.relu(self.fc3(h2))
+            h4 = F.relu(self.fc4(h3))
+            h5 = F.relu(self.fc5(h4))
         output = self.fc6(h5)
         return output

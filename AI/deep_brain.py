@@ -14,7 +14,7 @@ Transition = namedtuple('Transicion', ('state', 'action', 'next_state', 'next_ac
 
 BATCH_SIZE = 100
 # CAPACITY = 10000000
-GAMMA = 0.99 # 時間割引率
+GAMMA = 0.90 # 時間割引率
 
 class Brain:
     def __init__(self, num_states, num_actions):
@@ -104,7 +104,7 @@ class Brain:
                     temp = list()
                     for action in next_actions:
                         temp.append(target[0][action])
-            next_state_values[num] = -max(temp)
+                next_state_values[num] = -max(temp)
         # 3.4 教師となるQ値を、Q学習の式から求める
         expected_state_action_values = (next_state_values * GAMMA) + reward_batch
         
