@@ -35,9 +35,9 @@ class Brain:
         
         # 最適化手法の設定
         if param[0] == 'Adam':
-            self.optimizer = optim.Adam(self.model.parameters(), lr=0.001)
+            self.optimizer = optim.Adam(self.model.parameters(), lr=param[4])
         elif param[0] == 'SGD':
-            self.optimizer = optim.SGD(self.model.parameters(), lr=0.001)
+            self.optimizer = optim.SGD(self.model.parameters(), lr=param[4])
     def replay(self):
         '''Experience Replayでネットワークの結合パラメータを出力'''
         
@@ -85,7 +85,7 @@ class Brain:
         # ここから実行したアクションa_tに対応するQ値を求めるため、action_batchで行った行動a_t
         # のindexを求め、それに対応するQ値をgatherで引っ張り出す
         state_action_values = self.model(state_batch).to(self.device)
-        state_action_values = state_action_values.gather(1, action_batch)
+        state_action_values = state_action_values.gather(1, action_batch).to(self.device)
         
         # 3.3 max{Q(s_t+1, a)}値を求める。ただし、次の状態があるかに注意。
         
@@ -112,7 +112,7 @@ class Brain:
                 next_state_values = next_state_values.to(self.device)
         # 3.4 教師となるQ値を、Q学習の式から求める
         expected_state_action_values = (next_state_values * GAMMA) + reward_batch
-        expected_state_action_values = expected_state_action_values
+        expected_state_action_values = expected_state_action_values.unsqueeze(1).to(self.device)
         # ------------------------------------------------------------
         # 4. 結合パラメータの更新　
         # ------------------------------------------------------------
@@ -122,10 +122,10 @@ class Brain:
         # 4.2 損失関数を計算する (smooth_l1_lossはHuberloss)
         # expected_state_action_valuesは
         # sizeが[minbatch]になっているから、unsqueezeで[minbatch x 1]へ
-        loss = F.smooth_l1_loss(state_action_values, expected_state_action_values.unsqueeze(1)).to(self.device)
+        loss = F.smooth_l1_loss(state_action_values, expected_state_action_values).to(self.device)
         # print(loss.item())
         # 4.3 結合パラメータを更新する
-        self.optimizer.zero_grad() # 勾配をリセット
+        self.model.grad = None # 勾配をリセット
         loss.backward() # バックプロパゲーションを計算
         self.optimizer.step() # 結合パラメータを更新
     

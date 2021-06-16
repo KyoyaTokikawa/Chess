@@ -9,16 +9,16 @@ class Net(nn.Module):
     
     def __init__(self, num_states, num_actions):
         super(Net, self).__init__()
-        self.fc1 = nn.Linear(num_states, 256)
-        self.fc2 = nn.Linear(256, 256) #中間層
-        self.fc3 = nn.Linear(256, 256) #中間層
-        self.fc4 = nn.Linear(256, 256) #中間層
-        self.fc5 = nn.Linear(256, 256) #中間層
-        self.fc6 = nn.Linear(256, 256) #中間層
-        self.fc7 = nn.Linear(256, 256) #中間層
-        self.fc8 = nn.Linear(256, 256) #中間層
-        self.fc9 = nn.Linear(256, 256) #中間層
-        self.fc10 = nn.Linear(256, num_actions)
+        self.fc1 = nn.Linear(num_states, 256).cuda()
+        self.fc2 = nn.Linear(256, 256).cuda() #中間層
+        self.fc3 = nn.Linear(256, 256).cuda() #中間層
+        self.fc4 = nn.Linear(256, 256).cuda() #中間層
+        self.fc5 = nn.Linear(256, 256).cuda() #中間層
+        self.fc6 = nn.Linear(256, 256).cuda() #中間層
+        self.fc7 = nn.Linear(256, 256).cuda() #中間層
+        self.fc8 = nn.Linear(256, 256).cuda() #中間層
+        self.fc9 = nn.Linear(256, 256).cuda() #中間層
+        self.fc10 = nn.Linear(256, num_actions).cuda()
     
     def forward(self, x):
         if False:

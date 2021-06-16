@@ -1,1835 +1,369 @@
-1 draw:1 white:0 black:0
-2 draw:2 white:0 black:0
-3 draw:3 white:0 black:0
-4 draw:4 white:0 black:0
-5 draw:5 white:0 black:0
-6 draw:6 white:0 black:0
-7 draw:6 white:0 black:1
-8 draw:7 white:0 black:1
-9 draw:8 white:0 black:1
-10 draw:9 white:0 black:1
-11 draw:10 white:0 black:1
-12 draw:11 white:0 black:1
-13 draw:12 white:0 black:1
-14 draw:13 white:0 black:1
-15 draw:14 white:0 black:1
-16 draw:15 white:0 black:1
-17 draw:16 white:0 black:1
-18 draw:17 white:0 black:1
-19 draw:17 white:1 black:1
-20 draw:18 white:1 black:1
-21 draw:18 white:2 black:1
-22 draw:18 white:3 black:1
-23 draw:19 white:3 black:1
-24 draw:20 white:3 black:1
-25 draw:21 white:3 black:1
-26 draw:21 white:3 black:2
-27 draw:21 white:4 black:2
-28 draw:21 white:5 black:2
-29 draw:22 white:5 black:2
-30 draw:23 white:5 black:2
-31 draw:23 white:5 black:3
-32 draw:24 white:5 black:3
-33 draw:25 white:5 black:3
-34 draw:26 white:5 black:3
-35 draw:26 white:6 black:3
-36 draw:26 white:6 black:4
-37 draw:27 white:6 black:4
-38 draw:28 white:6 black:4
-39 draw:29 white:6 black:4
-40 draw:30 white:6 black:4
-41 draw:30 white:7 black:4
-42 draw:31 white:7 black:4
-43 draw:32 white:7 black:4
-44 draw:33 white:7 black:4
-45 draw:34 white:7 black:4
-46 draw:34 white:7 black:5
-47 draw:35 white:7 black:5
-48 draw:36 white:7 black:5
-49 draw:36 white:8 black:5
-50 draw:37 white:8 black:5
-51 draw:38 white:8 black:5
-52 draw:39 white:8 black:5
-53 draw:40 white:8 black:5
-54 draw:41 white:8 black:5
-55 draw:42 white:8 black:5
-56 draw:43 white:8 black:5
-57 draw:44 white:8 black:5
-58 draw:44 white:9 black:5
-59 draw:45 white:9 black:5
-60 draw:46 white:9 black:5
-61 draw:47 white:9 black:5
-62 draw:48 white:9 black:5
-63 draw:49 white:9 black:5
-64 draw:49 white:10 black:5
-65 draw:50 white:10 black:5
-66 draw:50 white:10 black:6
-67 draw:51 white:10 black:6
-68 draw:52 white:10 black:6
-69 draw:53 white:10 black:6
-70 draw:54 white:10 black:6
-71 draw:55 white:10 black:6
-72 draw:56 white:10 black:6
-73 draw:56 white:11 black:6
-74 draw:57 white:11 black:6
-75 draw:58 white:11 black:6
-76 draw:59 white:11 black:6
-77 draw:60 white:11 black:6
-78 draw:61 white:11 black:6
-79 draw:61 white:11 black:7
-80 draw:62 white:11 black:7
-81 draw:63 white:11 black:7
-82 draw:64 white:11 black:7
-83 draw:65 white:11 black:7
-84 draw:66 white:11 black:7
-85 draw:67 white:11 black:7
-86 draw:68 white:11 black:7
-87 draw:69 white:11 black:7
-88 draw:70 white:11 black:7
-89 draw:71 white:11 black:7
-90 draw:71 white:11 black:8
-91 draw:71 white:11 black:9
-92 draw:72 white:11 black:9
-93 draw:73 white:11 black:9
-94 draw:74 white:11 black:9
-95 draw:74 white:11 black:10
-96 draw:75 white:11 black:10
-97 draw:76 white:11 black:10
-98 draw:77 white:11 black:10
-99 draw:78 white:11 black:10
-100 draw:79 white:11 black:10
-101 draw:79 white:12 black:10
-102 draw:80 white:12 black:10
-103 draw:81 white:12 black:10
-104 draw:82 white:12 black:10
-105 draw:83 white:12 black:10
-106 draw:83 white:13 black:10
-107 draw:83 white:14 black:10
-108 draw:83 white:15 black:10
-109 draw:84 white:15 black:10
-110 draw:85 white:15 black:10
-111 draw:86 white:15 black:10
-112 draw:87 white:15 black:10
-113 draw:88 white:15 black:10
-114 draw:89 white:15 black:10
-115 draw:90 white:15 black:10
-116 draw:91 white:15 black:10
-117 draw:92 white:15 black:10
-118 draw:92 white:16 black:10
-119 draw:93 white:16 black:10
-120 draw:94 white:16 black:10
-121 draw:94 white:16 black:11
-122 draw:95 white:16 black:11
-123 draw:96 white:16 black:11
-124 draw:97 white:16 black:11
-125 draw:98 white:16 black:11
-126 draw:99 white:16 black:11
-127 draw:100 white:16 black:11
-128 draw:101 white:16 black:11
-129 draw:102 white:16 black:11
-130 draw:102 white:17 black:11
-131 draw:103 white:17 black:11
-132 draw:104 white:17 black:11
-133 draw:105 white:17 black:11
-134 draw:106 white:17 black:11
-135 draw:107 white:17 black:11
-136 draw:108 white:17 black:11
-137 draw:109 white:17 black:11
-138 draw:109 white:18 black:11
-139 draw:109 white:19 black:11
-140 draw:110 white:19 black:11
-141 draw:111 white:19 black:11
-142 draw:111 white:19 black:12
-143 draw:112 white:19 black:12
-144 draw:113 white:19 black:12
-145 draw:114 white:19 black:12
-146 draw:115 white:19 black:12
-147 draw:115 white:20 black:12
-148 draw:116 white:20 black:12
-149 draw:117 white:20 black:12
-150 draw:118 white:20 black:12
-151 draw:119 white:20 black:12
-152 draw:120 white:20 black:12
-153 draw:121 white:20 black:12
-154 draw:122 white:20 black:12
-155 draw:123 white:20 black:12
-156 draw:124 white:20 black:12
-157 draw:125 white:20 black:12
-158 draw:126 white:20 black:12
-159 draw:127 white:20 black:12
-160 draw:128 white:20 black:12
-161 draw:129 white:20 black:12
-162 draw:130 white:20 black:12
-163 draw:131 white:20 black:12
-164 draw:132 white:20 black:12
-165 draw:132 white:20 black:13
-166 draw:133 white:20 black:13
-167 draw:133 white:21 black:13
-168 draw:134 white:21 black:13
-169 draw:135 white:21 black:13
-170 draw:136 white:21 black:13
-171 draw:137 white:21 black:13
-172 draw:138 white:21 black:13
-173 draw:139 white:21 black:13
-174 draw:140 white:21 black:13
-175 draw:141 white:21 black:13
-176 draw:141 white:21 black:14
-177 draw:141 white:22 black:14
-178 draw:142 white:22 black:14
-179 draw:142 white:22 black:15
-180 draw:143 white:22 black:15
-181 draw:144 white:22 black:15
-182 draw:144 white:23 black:15
-183 draw:145 white:23 black:15
-184 draw:146 white:23 black:15
-185 draw:146 white:23 black:16
-186 draw:147 white:23 black:16
-187 draw:147 white:23 black:17
-188 draw:147 white:24 black:17
-189 draw:148 white:24 black:17
-190 draw:149 white:24 black:17
-191 draw:150 white:24 black:17
-192 draw:151 white:24 black:17
-193 draw:152 white:24 black:17
-194 draw:153 white:24 black:17
-195 draw:153 white:25 black:17
-196 draw:154 white:25 black:17
-197 draw:155 white:25 black:17
-198 draw:156 white:25 black:17
-199 draw:156 white:26 black:17
-200 draw:157 white:26 black:17
-201 draw:158 white:26 black:17
-202 draw:159 white:26 black:17
-203 draw:160 white:26 black:17
-204 draw:161 white:26 black:17
-205 draw:162 white:26 black:17
-206 draw:163 white:26 black:17
-207 draw:164 white:26 black:17
-208 draw:165 white:26 black:17
-209 draw:166 white:26 black:17
-210 draw:167 white:26 black:17
-211 draw:168 white:26 black:17
-212 draw:169 white:26 black:17
-213 draw:170 white:26 black:17
-214 draw:171 white:26 black:17
-215 draw:171 white:26 black:18
-216 draw:172 white:26 black:18
-217 draw:173 white:26 black:18
-218 draw:174 white:26 black:18
-219 draw:174 white:27 black:18
-220 draw:175 white:27 black:18
-221 draw:176 white:27 black:18
-222 draw:177 white:27 black:18
-223 draw:178 white:27 black:18
-224 draw:178 white:28 black:18
-225 draw:179 white:28 black:18
-226 draw:180 white:28 black:18
-227 draw:181 white:28 black:18
-228 draw:182 white:28 black:18
-229 draw:183 white:28 black:18
-230 draw:184 white:28 black:18
-1 draw:1 white:0 black:0
-231 draw:185 white:28 black:18
-232 draw:186 white:28 black:18
-1 draw:1 white:0 black:0
-2 draw:2 white:0 black:0
-3 draw:3 white:0 black:0
-4 draw:4 white:0 black:0
-5 draw:5 white:0 black:0
-6 draw:5 white:0 black:1
-7 draw:6 white:0 black:1
-8 draw:6 white:0 black:2
-9 draw:7 white:0 black:2
-10 draw:8 white:0 black:2
-11 draw:9 white:0 black:2
-12 draw:9 white:0 black:3
-13 draw:10 white:0 black:3
-14 draw:11 white:0 black:3
-15 draw:12 white:0 black:3
-16 draw:13 white:0 black:3
-17 draw:13 white:1 black:3
-18 draw:14 white:1 black:3
-19 draw:15 white:1 black:3
-20 draw:15 white:1 black:4
-21 draw:16 white:1 black:4
-22 draw:17 white:1 black:4
-23 draw:17 white:1 black:5
-24 draw:18 white:1 black:5
-25 draw:19 white:1 black:5
-26 draw:20 white:1 black:5
-27 draw:21 white:1 black:5
-28 draw:22 white:1 black:5
-29 draw:22 white:2 black:5
-30 draw:23 white:2 black:5
-31 draw:24 white:2 black:5
-32 draw:25 white:2 black:5
-33 draw:26 white:2 black:5
-34 draw:27 white:2 black:5
-35 draw:28 white:2 black:5
-36 draw:29 white:2 black:5
-37 draw:29 white:3 black:5
-38 draw:30 white:3 black:5
-39 draw:30 white:4 black:5
-40 draw:31 white:4 black:5
-41 draw:32 white:4 black:5
-42 draw:33 white:4 black:5
-43 draw:34 white:4 black:5
-44 draw:35 white:4 black:5
-45 draw:36 white:4 black:5
-46 draw:37 white:4 black:5
-47 draw:38 white:4 black:5
-48 draw:38 white:5 black:5
-49 draw:39 white:5 black:5
-50 draw:40 white:5 black:5
-51 draw:41 white:5 black:5
-52 draw:42 white:5 black:5
-53 draw:43 white:5 black:5
-54 draw:44 white:5 black:5
-55 draw:45 white:5 black:5
-56 draw:46 white:5 black:5
-57 draw:47 white:5 black:5
-58 draw:48 white:5 black:5
-59 draw:49 white:5 black:5
-60 draw:49 white:6 black:5
-61 draw:49 white:7 black:5
-62 draw:50 white:7 black:5
-63 draw:50 white:7 black:6
-64 draw:50 white:7 black:7
-65 draw:51 white:7 black:7
-66 draw:51 white:7 black:8
-67 draw:51 white:8 black:8
-68 draw:52 white:8 black:8
-69 draw:53 white:8 black:8
-70 draw:54 white:8 black:8
-71 draw:54 white:8 black:9
-72 draw:55 white:8 black:9
-73 draw:56 white:8 black:9
-74 draw:57 white:8 black:9
-75 draw:58 white:8 black:9
-76 draw:59 white:8 black:9
-77 draw:60 white:8 black:9
-78 draw:61 white:8 black:9
-79 draw:61 white:9 black:9
-80 draw:62 white:9 black:9
-81 draw:63 white:9 black:9
-82 draw:63 white:9 black:10
-83 draw:63 white:10 black:10
-84 draw:64 white:10 black:10
-85 draw:65 white:10 black:10
-86 draw:66 white:10 black:10
-87 draw:67 white:10 black:10
-88 draw:68 white:10 black:10
-89 draw:68 white:11 black:10
-90 draw:69 white:11 black:10
-91 draw:70 white:11 black:10
-92 draw:71 white:11 black:10
-93 draw:71 white:11 black:11
-94 draw:72 white:11 black:11
-95 draw:73 white:11 black:11
-96 draw:73 white:11 black:12
-97 draw:74 white:11 black:12
-98 draw:74 white:12 black:12
-99 draw:75 white:12 black:12
-100 draw:76 white:12 black:12
-101 draw:77 white:12 black:12
-102 draw:77 white:13 black:12
-103 draw:78 white:13 black:12
-104 draw:78 white:14 black:12
-105 draw:79 white:14 black:12
-106 draw:80 white:14 black:12
-107 draw:81 white:14 black:12
-108 draw:82 white:14 black:12
-109 draw:82 white:15 black:12
-110 draw:83 white:15 black:12
-111 draw:83 white:16 black:12
-112 draw:83 white:17 black:12
-113 draw:84 white:17 black:12
-114 draw:85 white:17 black:12
-115 draw:86 white:17 black:12
-116 draw:87 white:17 black:12
-117 draw:88 white:17 black:12
-118 draw:89 white:17 black:12
-119 draw:90 white:17 black:12
-120 draw:91 white:17 black:12
-121 draw:92 white:17 black:12
-122 draw:92 white:18 black:12
-123 draw:93 white:18 black:12
-124 draw:94 white:18 black:12
-125 draw:95 white:18 black:12
-126 draw:96 white:18 black:12
-127 draw:97 white:18 black:12
-128 draw:98 white:18 black:12
-129 draw:99 white:18 black:12
-130 draw:100 white:18 black:12
-131 draw:100 white:19 black:12
-132 draw:100 white:19 black:13
-133 draw:101 white:19 black:13
-134 draw:102 white:19 black:13
-135 draw:102 white:19 black:14
-136 draw:103 white:19 black:14
-137 draw:104 white:19 black:14
-138 draw:105 white:19 black:14
-139 draw:106 white:19 black:14
-140 draw:107 white:19 black:14
-141 draw:108 white:19 black:14
-142 draw:109 white:19 black:14
-143 draw:110 white:19 black:14
-144 draw:111 white:19 black:14
-145 draw:112 white:19 black:14
-146 draw:113 white:19 black:14
-147 draw:114 white:19 black:14
-1 draw:0 white:0 black:1
-2 draw:1 white:0 black:1
-3 draw:2 white:0 black:1
-4 draw:3 white:0 black:1
-5 draw:4 white:0 black:1
-6 draw:4 white:1 black:1
-7 draw:5 white:1 black:1
-8 draw:5 white:2 black:1
-9 draw:6 white:2 black:1
-1 draw:1 white:0 black:0
-1 draw:1 white:0 black:0
-2 draw:2 white:0 black:0
-3 draw:3 white:0 black:0
-4 draw:4 white:0 black:0
-1 draw:0 white:0 black:1
-2 draw:1 white:0 black:1
-3 draw:2 white:0 black:1
-4 draw:3 white:0 black:1
-5 draw:4 white:0 black:1
-6 draw:5 white:0 black:1
-7 draw:6 white:0 black:1
-8 draw:7 white:0 black:1
-9 draw:8 white:0 black:1
-10 draw:9 white:0 black:1
-11 draw:10 white:0 black:1
-12 draw:11 white:0 black:1
-13 draw:12 white:0 black:1
-14 draw:12 white:1 black:1
-15 draw:13 white:1 black:1
-16 draw:14 white:1 black:1
-17 draw:15 white:1 black:1
-18 draw:16 white:1 black:1
-19 draw:17 white:1 black:1
-20 draw:17 white:2 black:1
-21 draw:18 white:2 black:1
-22 draw:19 white:2 black:1
-23 draw:19 white:2 black:2
-24 draw:20 white:2 black:2
-25 draw:21 white:2 black:2
-26 draw:22 white:2 black:2
-27 draw:23 white:2 black:2
-28 draw:24 white:2 black:2
-29 draw:25 white:2 black:2
-30 draw:26 white:2 black:2
-31 draw:26 white:2 black:3
-32 draw:27 white:2 black:3
-33 draw:28 white:2 black:3
-34 draw:29 white:2 black:3
-35 draw:30 white:2 black:3
-36 draw:31 white:2 black:3
-37 draw:32 white:2 black:3
-38 draw:33 white:2 black:3
-39 draw:34 white:2 black:3
-40 draw:35 white:2 black:3
-41 draw:36 white:2 black:3
-42 draw:37 white:2 black:3
-43 draw:38 white:2 black:3
-44 draw:39 white:2 black:3
-45 draw:40 white:2 black:3
-46 draw:40 white:3 black:3
-47 draw:40 white:4 black:3
-48 draw:41 white:4 black:3
-49 draw:42 white:4 black:3
-50 draw:43 white:4 black:3
-51 draw:44 white:4 black:3
-52 draw:45 white:4 black:3
-53 draw:46 white:4 black:3
-54 draw:47 white:4 black:3
-55 draw:48 white:4 black:3
-56 draw:49 white:4 black:3
-57 draw:50 white:4 black:3
-58 draw:50 white:5 black:3
-59 draw:51 white:5 black:3
-60 draw:51 white:5 black:4
-61 draw:52 white:5 black:4
-62 draw:53 white:5 black:4
-63 draw:54 white:5 black:4
-64 draw:55 white:5 black:4
-65 draw:56 white:5 black:4
-66 draw:57 white:5 black:4
-67 draw:57 white:5 black:5
-68 draw:58 white:5 black:5
-69 draw:59 white:5 black:5
-70 draw:60 white:5 black:5
-71 draw:61 white:5 black:5
-72 draw:62 white:5 black:5
-73 draw:63 white:5 black:5
-74 draw:64 white:5 black:5
-75 draw:65 white:5 black:5
-76 draw:66 white:5 black:5
-77 draw:66 white:6 black:5
-78 draw:67 white:6 black:5
-79 draw:68 white:6 black:5
-80 draw:69 white:6 black:5
-81 draw:69 white:6 black:6
-82 draw:70 white:6 black:6
-83 draw:71 white:6 black:6
-84 draw:71 white:7 black:6
-85 draw:72 white:7 black:6
-86 draw:73 white:7 black:6
-87 draw:73 white:8 black:6
-88 draw:74 white:8 black:6
-89 draw:75 white:8 black:6
-90 draw:76 white:8 black:6
-91 draw:77 white:8 black:6
-92 draw:78 white:8 black:6
-93 draw:79 white:8 black:6
-94 draw:80 white:8 black:6
-95 draw:81 white:8 black:6
-96 draw:82 white:8 black:6
-97 draw:83 white:8 black:6
-98 draw:83 white:9 black:6
-99 draw:83 white:10 black:6
-100 draw:83 white:11 black:6
-101 draw:84 white:11 black:6
-102 draw:85 white:11 black:6
-103 draw:86 white:11 black:6
-104 draw:87 white:11 black:6
-105 draw:87 white:12 black:6
-106 draw:88 white:12 black:6
-107 draw:89 white:12 black:6
-108 draw:89 white:13 black:6
-109 draw:90 white:13 black:6
-110 draw:91 white:13 black:6
-111 draw:92 white:13 black:6
-112 draw:93 white:13 black:6
-113 draw:94 white:13 black:6
-114 draw:95 white:13 black:6
-115 draw:95 white:13 black:7
-116 draw:96 white:13 black:7
-117 draw:96 white:14 black:7
-118 draw:96 white:15 black:7
-119 draw:97 white:15 black:7
-120 draw:98 white:15 black:7
-121 draw:99 white:15 black:7
-122 draw:100 white:15 black:7
-123 draw:101 white:15 black:7
-124 draw:101 white:16 black:7
-125 draw:102 white:16 black:7
-126 draw:103 white:16 black:7
-127 draw:104 white:16 black:7
-128 draw:105 white:16 black:7
-129 draw:106 white:16 black:7
-130 draw:107 white:16 black:7
-131 draw:108 white:16 black:7
-132 draw:108 white:17 black:7
-133 draw:108 white:18 black:7
-134 draw:109 white:18 black:7
-135 draw:110 white:18 black:7
-136 draw:111 white:18 black:7
-137 draw:112 white:18 black:7
-138 draw:113 white:18 black:7
-139 draw:114 white:18 black:7
-140 draw:115 white:18 black:7
-141 draw:116 white:18 black:7
-142 draw:117 white:18 black:7
-143 draw:117 white:18 black:8
-144 draw:118 white:18 black:8
-145 draw:119 white:18 black:8
-146 draw:120 white:18 black:8
-147 draw:121 white:18 black:8
-148 draw:122 white:18 black:8
-149 draw:122 white:18 black:9
-150 draw:123 white:18 black:9
-151 draw:124 white:18 black:9
-152 draw:125 white:18 black:9
-153 draw:126 white:18 black:9
-154 draw:127 white:18 black:9
-155 draw:128 white:18 black:9
-156 draw:129 white:18 black:9
-157 draw:130 white:18 black:9
-158 draw:131 white:18 black:9
-159 draw:132 white:18 black:9
-160 draw:133 white:18 black:9
-161 draw:134 white:18 black:9
-162 draw:135 white:18 black:9
-163 draw:136 white:18 black:9
-164 draw:137 white:18 black:9
-165 draw:137 white:18 black:10
-166 draw:138 white:18 black:10
-167 draw:138 white:19 black:10
-168 draw:139 white:19 black:10
-169 draw:140 white:19 black:10
-170 draw:141 white:19 black:10
-171 draw:141 white:19 black:11
-172 draw:141 white:20 black:11
-173 draw:141 white:21 black:11
-174 draw:142 white:21 black:11
-175 draw:143 white:21 black:11
-176 draw:144 white:21 black:11
-177 draw:145 white:21 black:11
-178 draw:146 white:21 black:11
-179 draw:147 white:21 black:11
-180 draw:147 white:22 black:11
-181 draw:147 white:23 black:11
-182 draw:147 white:24 black:11
-183 draw:148 white:24 black:11
-184 draw:149 white:24 black:11
-185 draw:149 white:25 black:11
-186 draw:149 white:26 black:11
-187 draw:150 white:26 black:11
-188 draw:150 white:27 black:11
-189 draw:151 white:27 black:11
-190 draw:152 white:27 black:11
-191 draw:153 white:27 black:11
-192 draw:154 white:27 black:11
-193 draw:155 white:27 black:11
-194 draw:155 white:27 black:12
-195 draw:156 white:27 black:12
-196 draw:156 white:27 black:13
-197 draw:157 white:27 black:13
-198 draw:158 white:27 black:13
-199 draw:159 white:27 black:13
-200 draw:159 white:28 black:13
-201 draw:160 white:28 black:13
-202 draw:161 white:28 black:13
-203 draw:162 white:28 black:13
-204 draw:163 white:28 black:13
-205 draw:164 white:28 black:13
-206 draw:164 white:29 black:13
-207 draw:165 white:29 black:13
-208 draw:166 white:29 black:13
-209 draw:167 white:29 black:13
-210 draw:168 white:29 black:13
-211 draw:168 white:30 black:13
-212 draw:169 white:30 black:13
-213 draw:170 white:30 black:13
-214 draw:170 white:30 black:14
-215 draw:171 white:30 black:14
-216 draw:172 white:30 black:14
-217 draw:173 white:30 black:14
-218 draw:174 white:30 black:14
-219 draw:174 white:30 black:15
-220 draw:175 white:30 black:15
-221 draw:175 white:31 black:15
-222 draw:176 white:31 black:15
-223 draw:177 white:31 black:15
-224 draw:178 white:31 black:15
-225 draw:179 white:31 black:15
-226 draw:180 white:31 black:15
-227 draw:181 white:31 black:15
-228 draw:181 white:32 black:15
-229 draw:181 white:32 black:16
-230 draw:181 white:33 black:16
-231 draw:182 white:33 black:16
-232 draw:183 white:33 black:16
-233 draw:184 white:33 black:16
-234 draw:184 white:34 black:16
-235 draw:185 white:34 black:16
-236 draw:185 white:34 black:17
-237 draw:185 white:35 black:17
-238 draw:186 white:35 black:17
-239 draw:187 white:35 black:17
-240 draw:187 white:35 black:18
-241 draw:188 white:35 black:18
-242 draw:189 white:35 black:18
-243 draw:190 white:35 black:18
-244 draw:191 white:35 black:18
-245 draw:191 white:35 black:19
-246 draw:192 white:35 black:19
-247 draw:193 white:35 black:19
-248 draw:194 white:35 black:19
-249 draw:195 white:35 black:19
-250 draw:196 white:35 black:19
-251 draw:197 white:35 black:19
-252 draw:198 white:35 black:19
-253 draw:199 white:35 black:19
-254 draw:200 white:35 black:19
-255 draw:201 white:35 black:19
-256 draw:202 white:35 black:19
-257 draw:203 white:35 black:19
-258 draw:203 white:35 black:20
-259 draw:204 white:35 black:20
-260 draw:205 white:35 black:20
-261 draw:206 white:35 black:20
-262 draw:207 white:35 black:20
-263 draw:207 white:35 black:21
-264 draw:208 white:35 black:21
-265 draw:209 white:35 black:21
-266 draw:210 white:35 black:21
-267 draw:211 white:35 black:21
-268 draw:212 white:35 black:21
-269 draw:213 white:35 black:21
-270 draw:214 white:35 black:21
-271 draw:215 white:35 black:21
-272 draw:215 white:36 black:21
-273 draw:216 white:36 black:21
-274 draw:216 white:37 black:21
-275 draw:217 white:37 black:21
-276 draw:218 white:37 black:21
-277 draw:219 white:37 black:21
-278 draw:220 white:37 black:21
-279 draw:221 white:37 black:21
-280 draw:222 white:37 black:21
-281 draw:222 white:37 black:22
-282 draw:223 white:37 black:22
-283 draw:224 white:37 black:22
-284 draw:225 white:37 black:22
-285 draw:226 white:37 black:22
-286 draw:227 white:37 black:22
-287 draw:228 white:37 black:22
-288 draw:229 white:37 black:22
-289 draw:230 white:37 black:22
-290 draw:230 white:38 black:22
-291 draw:231 white:38 black:22
-292 draw:232 white:38 black:22
-293 draw:232 white:38 black:23
-294 draw:233 white:38 black:23
-295 draw:233 white:39 black:23
-296 draw:234 white:39 black:23
-297 draw:235 white:39 black:23
-298 draw:236 white:39 black:23
-299 draw:237 white:39 black:23
-300 draw:238 white:39 black:23
-301 draw:238 white:39 black:24
-302 draw:239 white:39 black:24
-303 draw:240 white:39 black:24
-304 draw:240 white:40 black:24
-305 draw:241 white:40 black:24
-306 draw:242 white:40 black:24
-307 draw:242 white:40 black:25
-308 draw:243 white:40 black:25
-309 draw:244 white:40 black:25
-310 draw:245 white:40 black:25
-311 draw:246 white:40 black:25
-312 draw:247 white:40 black:25
-313 draw:247 white:40 black:26
-314 draw:248 white:40 black:26
-315 draw:249 white:40 black:26
-316 draw:250 white:40 black:26
-317 draw:251 white:40 black:26
-318 draw:251 white:41 black:26
-319 draw:252 white:41 black:26
-320 draw:253 white:41 black:26
-321 draw:253 white:41 black:27
-322 draw:254 white:41 black:27
-323 draw:255 white:41 black:27
-324 draw:256 white:41 black:27
-325 draw:257 white:41 black:27
-326 draw:258 white:41 black:27
-327 draw:259 white:41 black:27
-328 draw:260 white:41 black:27
-329 draw:261 white:41 black:27
-330 draw:261 white:42 black:27
-331 draw:261 white:43 black:27
-332 draw:261 white:44 black:27
-333 draw:262 white:44 black:27
-334 draw:263 white:44 black:27
-335 draw:264 white:44 black:27
-336 draw:265 white:44 black:27
-337 draw:266 white:44 black:27
-338 draw:267 white:44 black:27
-339 draw:268 white:44 black:27
-340 draw:269 white:44 black:27
-341 draw:270 white:44 black:27
-342 draw:271 white:44 black:27
-343 draw:272 white:44 black:27
-344 draw:273 white:44 black:27
-345 draw:274 white:44 black:27
-346 draw:274 white:45 black:27
-347 draw:274 white:46 black:27
-348 draw:275 white:46 black:27
-349 draw:275 white:46 black:28
-350 draw:276 white:46 black:28
-351 draw:276 white:46 black:29
-352 draw:276 white:47 black:29
-353 draw:277 white:47 black:29
-354 draw:278 white:47 black:29
-355 draw:279 white:47 black:29
-356 draw:279 white:47 black:30
-357 draw:280 white:47 black:30
-358 draw:280 white:48 black:30
-359 draw:280 white:49 black:30
-360 draw:281 white:49 black:30
-361 draw:281 white:50 black:30
-362 draw:282 white:50 black:30
-363 draw:282 white:50 black:31
-364 draw:283 white:50 black:31
-365 draw:284 white:50 black:31
-366 draw:285 white:50 black:31
-367 draw:286 white:50 black:31
-368 draw:287 white:50 black:31
-369 draw:288 white:50 black:31
-370 draw:289 white:50 black:31
-371 draw:290 white:50 black:31
-372 draw:291 white:50 black:31
-373 draw:292 white:50 black:31
-374 draw:293 white:50 black:31
-375 draw:293 white:50 black:32
-376 draw:294 white:50 black:32
-377 draw:295 white:50 black:32
-378 draw:296 white:50 black:32
-379 draw:296 white:51 black:32
-380 draw:297 white:51 black:32
-381 draw:298 white:51 black:32
-382 draw:298 white:52 black:32
-383 draw:298 white:52 black:33
-384 draw:299 white:52 black:33
-385 draw:300 white:52 black:33
-386 draw:301 white:52 black:33
-387 draw:301 white:52 black:34
-388 draw:302 white:52 black:34
-389 draw:303 white:52 black:34
-390 draw:304 white:52 black:34
-391 draw:304 white:53 black:34
-392 draw:305 white:53 black:34
-393 draw:306 white:53 black:34
-394 draw:306 white:53 black:35
-395 draw:307 white:53 black:35
-396 draw:308 white:53 black:35
-397 draw:309 white:53 black:35
-398 draw:310 white:53 black:35
-399 draw:311 white:53 black:35
-400 draw:311 white:54 black:35
-401 draw:312 white:54 black:35
-402 draw:313 white:54 black:35
-403 draw:314 white:54 black:35
-404 draw:315 white:54 black:35
-405 draw:316 white:54 black:35
-406 draw:317 white:54 black:35
-407 draw:318 white:54 black:35
-408 draw:319 white:54 black:35
-409 draw:320 white:54 black:35
-410 draw:321 white:54 black:35
-411 draw:321 white:55 black:35
-412 draw:322 white:55 black:35
-413 draw:323 white:55 black:35
-414 draw:324 white:55 black:35
-415 draw:325 white:55 black:35
-416 draw:326 white:55 black:35
-417 draw:327 white:55 black:35
-418 draw:328 white:55 black:35
-419 draw:329 white:55 black:35
-420 draw:330 white:55 black:35
-421 draw:331 white:55 black:35
-422 draw:332 white:55 black:35
-423 draw:333 white:55 black:35
-424 draw:334 white:55 black:35
-425 draw:335 white:55 black:35
-426 draw:336 white:55 black:35
-427 draw:337 white:55 black:35
-428 draw:338 white:55 black:35
-429 draw:339 white:55 black:35
-430 draw:340 white:55 black:35
-431 draw:341 white:55 black:35
-432 draw:342 white:55 black:35
-433 draw:343 white:55 black:35
-434 draw:344 white:55 black:35
-435 draw:344 white:56 black:35
-436 draw:345 white:56 black:35
-437 draw:346 white:56 black:35
-438 draw:347 white:56 black:35
-439 draw:348 white:56 black:35
-440 draw:349 white:56 black:35
-441 draw:350 white:56 black:35
-442 draw:351 white:56 black:35
-443 draw:352 white:56 black:35
-444 draw:352 white:57 black:35
-445 draw:353 white:57 black:35
-446 draw:354 white:57 black:35
-447 draw:355 white:57 black:35
-448 draw:356 white:57 black:35
-449 draw:356 white:58 black:35
-450 draw:357 white:58 black:35
-451 draw:357 white:58 black:36
-452 draw:358 white:58 black:36
-453 draw:359 white:58 black:36
-454 draw:359 white:59 black:36
-455 draw:360 white:59 black:36
-456 draw:361 white:59 black:36
-457 draw:362 white:59 black:36
-458 draw:363 white:59 black:36
-459 draw:364 white:59 black:36
-460 draw:365 white:59 black:36
-461 draw:366 white:59 black:36
-462 draw:367 white:59 black:36
-463 draw:368 white:59 black:36
-464 draw:369 white:59 black:36
-465 draw:370 white:59 black:36
-466 draw:371 white:59 black:36
-467 draw:372 white:59 black:36
-468 draw:373 white:59 black:36
-469 draw:374 white:59 black:36
-470 draw:375 white:59 black:36
-471 draw:375 white:60 black:36
-472 draw:375 white:60 black:37
-473 draw:376 white:60 black:37
-474 draw:377 white:60 black:37
-475 draw:377 white:60 black:38
-476 draw:378 white:60 black:38
-477 draw:378 white:61 black:38
-478 draw:379 white:61 black:38
-479 draw:380 white:61 black:38
-480 draw:381 white:61 black:38
-481 draw:382 white:61 black:38
-482 draw:383 white:61 black:38
-483 draw:384 white:61 black:38
-484 draw:385 white:61 black:38
-485 draw:385 white:62 black:38
-486 draw:386 white:62 black:38
-487 draw:387 white:62 black:38
-488 draw:388 white:62 black:38
-489 draw:389 white:62 black:38
-490 draw:390 white:62 black:38
-491 draw:390 white:63 black:38
-492 draw:391 white:63 black:38
-493 draw:392 white:63 black:38
-494 draw:393 white:63 black:38
-495 draw:394 white:63 black:38
-496 draw:395 white:63 black:38
-497 draw:395 white:64 black:38
-498 draw:396 white:64 black:38
-499 draw:397 white:64 black:38
-500 draw:398 white:64 black:38
-501 draw:399 white:64 black:38
-502 draw:400 white:64 black:38
-503 draw:401 white:64 black:38
-504 draw:402 white:64 black:38
-505 draw:403 white:64 black:38
-506 draw:404 white:64 black:38
-507 draw:405 white:64 black:38
-508 draw:405 white:64 black:39
-509 draw:406 white:64 black:39
-510 draw:407 white:64 black:39
-511 draw:408 white:64 black:39
-512 draw:408 white:65 black:39
-513 draw:409 white:65 black:39
-514 draw:410 white:65 black:39
-515 draw:411 white:65 black:39
-516 draw:412 white:65 black:39
-517 draw:413 white:65 black:39
-518 draw:414 white:65 black:39
-519 draw:414 white:65 black:40
-520 draw:415 white:65 black:40
-521 draw:416 white:65 black:40
-522 draw:417 white:65 black:40
-523 draw:418 white:65 black:40
-524 draw:419 white:65 black:40
-525 draw:420 white:65 black:40
-526 draw:421 white:65 black:40
-527 draw:421 white:65 black:41
-528 draw:421 white:65 black:42
-529 draw:422 white:65 black:42
-530 draw:423 white:65 black:42
-531 draw:424 white:65 black:42
-532 draw:425 white:65 black:42
-533 draw:426 white:65 black:42
-534 draw:426 white:65 black:43
-535 draw:427 white:65 black:43
-536 draw:428 white:65 black:43
-537 draw:429 white:65 black:43
-538 draw:430 white:65 black:43
-539 draw:430 white:66 black:43
-540 draw:431 white:66 black:43
-541 draw:432 white:66 black:43
-542 draw:433 white:66 black:43
-543 draw:434 white:66 black:43
-544 draw:434 white:67 black:43
-545 draw:434 white:67 black:44
-546 draw:435 white:67 black:44
-547 draw:436 white:67 black:44
-548 draw:437 white:67 black:44
-549 draw:438 white:67 black:44
-550 draw:439 white:67 black:44
-551 draw:440 white:67 black:44
-552 draw:441 white:67 black:44
-553 draw:442 white:67 black:44
-554 draw:443 white:67 black:44
-555 draw:444 white:67 black:44
-556 draw:445 white:67 black:44
-557 draw:445 white:67 black:45
-558 draw:446 white:67 black:45
-559 draw:447 white:67 black:45
-560 draw:448 white:67 black:45
-561 draw:449 white:67 black:45
-562 draw:450 white:67 black:45
-563 draw:451 white:67 black:45
-564 draw:451 white:68 black:45
-565 draw:451 white:69 black:45
-566 draw:452 white:69 black:45
-567 draw:453 white:69 black:45
-568 draw:453 white:70 black:45
-569 draw:453 white:70 black:46
-570 draw:454 white:70 black:46
-571 draw:455 white:70 black:46
-572 draw:456 white:70 black:46
-573 draw:457 white:70 black:46
-574 draw:458 white:70 black:46
-575 draw:459 white:70 black:46
-576 draw:460 white:70 black:46
-577 draw:460 white:71 black:46
-578 draw:461 white:71 black:46
-579 draw:461 white:71 black:47
-580 draw:462 white:71 black:47
-581 draw:462 white:71 black:48
-582 draw:463 white:71 black:48
-583 draw:464 white:71 black:48
-584 draw:465 white:71 black:48
-585 draw:466 white:71 black:48
-586 draw:466 white:72 black:48
-587 draw:466 white:72 black:49
-588 draw:467 white:72 black:49
-589 draw:467 white:73 black:49
-590 draw:467 white:73 black:50
-591 draw:468 white:73 black:50
-592 draw:469 white:73 black:50
-593 draw:470 white:73 black:50
-594 draw:471 white:73 black:50
-595 draw:472 white:73 black:50
-596 draw:472 white:74 black:50
-597 draw:472 white:75 black:50
-598 draw:473 white:75 black:50
-599 draw:474 white:75 black:50
-600 draw:475 white:75 black:50
-601 draw:476 white:75 black:50
-602 draw:476 white:76 black:50
-603 draw:477 white:76 black:50
-604 draw:478 white:76 black:50
-605 draw:479 white:76 black:50
-606 draw:479 white:77 black:50
-607 draw:480 white:77 black:50
-608 draw:481 white:77 black:50
-609 draw:481 white:78 black:50
-610 draw:481 white:79 black:50
-611 draw:482 white:79 black:50
-612 draw:483 white:79 black:50
-613 draw:484 white:79 black:50
-614 draw:485 white:79 black:50
-615 draw:485 white:79 black:51
-616 draw:486 white:79 black:51
-617 draw:487 white:79 black:51
-618 draw:487 white:80 black:51
-619 draw:488 white:80 black:51
-620 draw:489 white:80 black:51
-621 draw:490 white:80 black:51
-622 draw:491 white:80 black:51
-623 draw:492 white:80 black:51
-624 draw:493 white:80 black:51
-625 draw:493 white:81 black:51
-626 draw:494 white:81 black:51
-627 draw:495 white:81 black:51
-628 draw:495 white:82 black:51
-629 draw:496 white:82 black:51
-630 draw:496 white:82 black:52
-631 draw:497 white:82 black:52
-632 draw:498 white:82 black:52
-633 draw:499 white:82 black:52
-634 draw:499 white:83 black:52
-635 draw:499 white:83 black:53
-636 draw:500 white:83 black:53
-637 draw:500 white:84 black:53
-638 draw:500 white:85 black:53
-639 draw:501 white:85 black:53
-640 draw:501 white:85 black:54
-641 draw:501 white:86 black:54
-642 draw:502 white:86 black:54
-643 draw:503 white:86 black:54
-644 draw:504 white:86 black:54
-645 draw:504 white:86 black:55
-646 draw:505 white:86 black:55
-647 draw:506 white:86 black:55
-648 draw:507 white:86 black:55
-649 draw:508 white:86 black:55
-650 draw:509 white:86 black:55
-651 draw:510 white:86 black:55
-652 draw:511 white:86 black:55
-653 draw:511 white:87 black:55
-654 draw:512 white:87 black:55
-655 draw:512 white:87 black:56
-656 draw:512 white:87 black:57
-657 draw:513 white:87 black:57
-658 draw:514 white:87 black:57
-659 draw:514 white:88 black:57
-660 draw:514 white:88 black:58
-661 draw:515 white:88 black:58
-662 draw:515 white:89 black:58
-663 draw:516 white:89 black:58
-664 draw:517 white:89 black:58
-665 draw:518 white:89 black:58
-666 draw:519 white:89 black:58
-667 draw:520 white:89 black:58
-668 draw:520 white:90 black:58
-669 draw:521 white:90 black:58
-670 draw:522 white:90 black:58
-671 draw:523 white:90 black:58
-672 draw:523 white:90 black:59
-673 draw:523 white:91 black:59
-674 draw:523 white:92 black:59
-675 draw:524 white:92 black:59
-676 draw:525 white:92 black:59
-677 draw:525 white:93 black:59
-678 draw:526 white:93 black:59
-679 draw:526 white:93 black:60
-680 draw:526 white:94 black:60
-681 draw:527 white:94 black:60
-682 draw:528 white:94 black:60
-683 draw:528 white:95 black:60
-684 draw:529 white:95 black:60
-685 draw:530 white:95 black:60
-686 draw:531 white:95 black:60
-687 draw:532 white:95 black:60
-688 draw:533 white:95 black:60
-689 draw:534 white:95 black:60
-690 draw:535 white:95 black:60
-691 draw:536 white:95 black:60
-692 draw:537 white:95 black:60
-693 draw:538 white:95 black:60
-694 draw:539 white:95 black:60
-695 draw:539 white:95 black:61
-696 draw:540 white:95 black:61
-697 draw:541 white:95 black:61
-698 draw:542 white:95 black:61
-699 draw:543 white:95 black:61
-700 draw:544 white:95 black:61
-701 draw:545 white:95 black:61
-702 draw:546 white:95 black:61
-703 draw:546 white:96 black:61
-704 draw:546 white:96 black:62
-705 draw:547 white:96 black:62
-706 draw:548 white:96 black:62
-707 draw:548 white:97 black:62
-708 draw:549 white:97 black:62
-709 draw:550 white:97 black:62
-710 draw:551 white:97 black:62
-711 draw:551 white:98 black:62
-712 draw:552 white:98 black:62
-713 draw:553 white:98 black:62
-714 draw:554 white:98 black:62
-715 draw:555 white:98 black:62
-716 draw:556 white:98 black:62
-717 draw:557 white:98 black:62
-718 draw:558 white:98 black:62
-719 draw:559 white:98 black:62
-720 draw:559 white:98 black:63
-721 draw:560 white:98 black:63
-722 draw:561 white:98 black:63
-723 draw:562 white:98 black:63
-724 draw:563 white:98 black:63
-725 draw:564 white:98 black:63
-726 draw:565 white:98 black:63
-727 draw:566 white:98 black:63
-728 draw:567 white:98 black:63
-729 draw:568 white:98 black:63
-730 draw:568 white:98 black:64
-731 draw:569 white:98 black:64
-732 draw:570 white:98 black:64
-733 draw:570 white:98 black:65
-734 draw:571 white:98 black:65
-735 draw:571 white:98 black:66
-736 draw:572 white:98 black:66
-737 draw:573 white:98 black:66
-738 draw:573 white:98 black:67
-739 draw:573 white:99 black:67
-740 draw:573 white:100 black:67
-741 draw:573 white:100 black:68
-742 draw:573 white:100 black:69
-743 draw:574 white:100 black:69
-744 draw:575 white:100 black:69
-745 draw:575 white:101 black:69
-746 draw:576 white:101 black:69
-747 draw:577 white:101 black:69
-748 draw:578 white:101 black:69
-749 draw:579 white:101 black:69
-750 draw:580 white:101 black:69
-751 draw:581 white:101 black:69
-752 draw:582 white:101 black:69
-753 draw:583 white:101 black:69
-754 draw:584 white:101 black:69
-755 draw:584 white:102 black:69
-756 draw:585 white:102 black:69
-757 draw:586 white:102 black:69
-758 draw:587 white:102 black:69
-759 draw:587 white:103 black:69
-760 draw:587 white:103 black:70
-761 draw:587 white:103 black:71
-762 draw:588 white:103 black:71
-763 draw:588 white:104 black:71
-764 draw:589 white:104 black:71
-765 draw:590 white:104 black:71
-766 draw:591 white:104 black:71
-767 draw:592 white:104 black:71
-768 draw:593 white:104 black:71
-769 draw:594 white:104 black:71
-770 draw:594 white:104 black:72
-771 draw:595 white:104 black:72
-772 draw:596 white:104 black:72
-773 draw:597 white:104 black:72
-774 draw:597 white:105 black:72
-775 draw:597 white:105 black:73
-776 draw:598 white:105 black:73
-777 draw:599 white:105 black:73
-778 draw:600 white:105 black:73
-779 draw:600 white:105 black:74
-780 draw:601 white:105 black:74
-781 draw:601 white:106 black:74
-782 draw:602 white:106 black:74
-783 draw:603 white:106 black:74
-784 draw:604 white:106 black:74
-785 draw:604 white:107 black:74
-786 draw:605 white:107 black:74
-787 draw:605 white:108 black:74
-788 draw:606 white:108 black:74
-789 draw:606 white:109 black:74
-790 draw:607 white:109 black:74
-791 draw:608 white:109 black:74
-792 draw:609 white:109 black:74
-793 draw:610 white:109 black:74
-794 draw:611 white:109 black:74
-795 draw:612 white:109 black:74
-796 draw:613 white:109 black:74
-797 draw:614 white:109 black:74
-798 draw:615 white:109 black:74
-799 draw:616 white:109 black:74
-800 draw:617 white:109 black:74
-801 draw:618 white:109 black:74
-802 draw:619 white:109 black:74
-803 draw:620 white:109 black:74
-804 draw:621 white:109 black:74
-805 draw:622 white:109 black:74
-806 draw:622 white:109 black:75
-807 draw:623 white:109 black:75
-808 draw:623 white:110 black:75
-809 draw:624 white:110 black:75
-810 draw:625 white:110 black:75
-811 draw:626 white:110 black:75
-812 draw:627 white:110 black:75
-813 draw:628 white:110 black:75
-814 draw:629 white:110 black:75
-815 draw:630 white:110 black:75
-816 draw:630 white:111 black:75
-817 draw:631 white:111 black:75
-818 draw:632 white:111 black:75
-819 draw:633 white:111 black:75
-820 draw:633 white:112 black:75
-821 draw:634 white:112 black:75
-822 draw:635 white:112 black:75
-823 draw:636 white:112 black:75
-824 draw:637 white:112 black:75
-825 draw:638 white:112 black:75
-826 draw:639 white:112 black:75
-827 draw:639 white:113 black:75
-828 draw:639 white:113 black:76
-829 draw:640 white:113 black:76
-830 draw:641 white:113 black:76
-831 draw:642 white:113 black:76
-832 draw:643 white:113 black:76
-833 draw:644 white:113 black:76
-834 draw:644 white:113 black:77
-835 draw:645 white:113 black:77
-836 draw:646 white:113 black:77
-837 draw:647 white:113 black:77
-838 draw:648 white:113 black:77
-839 draw:648 white:113 black:78
-840 draw:649 white:113 black:78
-841 draw:650 white:113 black:78
-842 draw:650 white:113 black:79
-843 draw:651 white:113 black:79
-844 draw:652 white:113 black:79
-845 draw:653 white:113 black:79
-846 draw:654 white:113 black:79
-847 draw:655 white:113 black:79
-848 draw:656 white:113 black:79
-849 draw:657 white:113 black:79
-850 draw:658 white:113 black:79
-851 draw:659 white:113 black:79
-852 draw:659 white:113 black:80
-853 draw:660 white:113 black:80
-854 draw:661 white:113 black:80
-855 draw:661 white:114 black:80
-856 draw:662 white:114 black:80
-857 draw:663 white:114 black:80
-858 draw:663 white:115 black:80
-859 draw:663 white:116 black:80
-860 draw:663 white:116 black:81
-861 draw:663 white:117 black:81
-862 draw:664 white:117 black:81
-863 draw:665 white:117 black:81
-864 draw:665 white:117 black:82
-865 draw:666 white:117 black:82
-866 draw:667 white:117 black:82
-867 draw:668 white:117 black:82
-868 draw:669 white:117 black:82
-869 draw:670 white:117 black:82
-870 draw:671 white:117 black:82
-871 draw:672 white:117 black:82
-872 draw:673 white:117 black:82
-873 draw:674 white:117 black:82
-874 draw:674 white:118 black:82
-875 draw:675 white:118 black:82
-876 draw:676 white:118 black:82
-877 draw:677 white:118 black:82
-878 draw:678 white:118 black:82
-879 draw:679 white:118 black:82
-880 draw:679 white:118 black:83
-881 draw:680 white:118 black:83
-882 draw:681 white:118 black:83
-883 draw:682 white:118 black:83
-884 draw:682 white:119 black:83
-885 draw:683 white:119 black:83
-886 draw:683 white:119 black:84
-887 draw:684 white:119 black:84
-888 draw:685 white:119 black:84
-889 draw:686 white:119 black:84
-890 draw:687 white:119 black:84
-891 draw:688 white:119 black:84
-892 draw:689 white:119 black:84
-893 draw:689 white:120 black:84
-894 draw:690 white:120 black:84
-895 draw:690 white:121 black:84
-896 draw:691 white:121 black:84
-897 draw:692 white:121 black:84
-898 draw:693 white:121 black:84
-899 draw:694 white:121 black:84
-900 draw:694 white:122 black:84
-901 draw:695 white:122 black:84
-902 draw:696 white:122 black:84
-903 draw:697 white:122 black:84
-904 draw:698 white:122 black:84
-905 draw:699 white:122 black:84
-906 draw:699 white:123 black:84
-907 draw:700 white:123 black:84
-908 draw:701 white:123 black:84
-909 draw:702 white:123 black:84
-910 draw:703 white:123 black:84
-911 draw:703 white:123 black:85
-912 draw:704 white:123 black:85
-913 draw:705 white:123 black:85
-914 draw:705 white:124 black:85
-915 draw:705 white:124 black:86
-916 draw:706 white:124 black:86
-917 draw:706 white:124 black:87
-918 draw:707 white:124 black:87
-919 draw:708 white:124 black:87
-920 draw:709 white:124 black:87
-921 draw:710 white:124 black:87
-922 draw:711 white:124 black:87
-923 draw:712 white:124 black:87
-924 draw:713 white:124 black:87
-925 draw:714 white:124 black:87
-926 draw:715 white:124 black:87
-927 draw:716 white:124 black:87
-928 draw:716 white:125 black:87
-929 draw:717 white:125 black:87
-930 draw:717 white:125 black:88
-931 draw:718 white:125 black:88
-932 draw:719 white:125 black:88
-933 draw:720 white:125 black:88
-934 draw:721 white:125 black:88
-935 draw:721 white:126 black:88
-936 draw:722 white:126 black:88
-937 draw:723 white:126 black:88
-938 draw:723 white:126 black:89
-939 draw:724 white:126 black:89
-940 draw:725 white:126 black:89
-941 draw:726 white:126 black:89
-942 draw:727 white:126 black:89
-943 draw:728 white:126 black:89
-944 draw:729 white:126 black:89
-945 draw:730 white:126 black:89
-946 draw:731 white:126 black:89
-947 draw:731 white:126 black:90
-948 draw:732 white:126 black:90
-949 draw:732 white:126 black:91
-950 draw:733 white:126 black:91
-951 draw:734 white:126 black:91
-952 draw:735 white:126 black:91
-953 draw:736 white:126 black:91
-954 draw:737 white:126 black:91
-955 draw:738 white:126 black:91
-956 draw:739 white:126 black:91
-957 draw:739 white:127 black:91
-958 draw:740 white:127 black:91
-959 draw:741 white:127 black:91
-960 draw:742 white:127 black:91
-961 draw:742 white:128 black:91
-962 draw:742 white:129 black:91
-963 draw:743 white:129 black:91
-964 draw:744 white:129 black:91
-965 draw:744 white:130 black:91
-966 draw:745 white:130 black:91
-967 draw:746 white:130 black:91
-968 draw:746 white:130 black:92
-969 draw:747 white:130 black:92
-970 draw:747 white:131 black:92
-971 draw:748 white:131 black:92
-972 draw:749 white:131 black:92
-973 draw:750 white:131 black:92
-974 draw:751 white:131 black:92
-975 draw:751 white:131 black:93
-976 draw:752 white:131 black:93
-977 draw:752 white:131 black:94
-978 draw:752 white:132 black:94
-979 draw:753 white:132 black:94
-980 draw:753 white:133 black:94
-981 draw:754 white:133 black:94
-982 draw:755 white:133 black:94
-983 draw:756 white:133 black:94
-984 draw:757 white:133 black:94
-985 draw:758 white:133 black:94
-986 draw:759 white:133 black:94
-987 draw:760 white:133 black:94
-988 draw:761 white:133 black:94
-989 draw:762 white:133 black:94
-990 draw:762 white:134 black:94
-991 draw:763 white:134 black:94
-992 draw:764 white:134 black:94
-993 draw:765 white:134 black:94
-994 draw:766 white:134 black:94
-995 draw:766 white:135 black:94
-996 draw:766 white:136 black:94
-997 draw:766 white:136 black:95
-998 draw:766 white:137 black:95
-999 draw:767 white:137 black:95
-1000 draw:768 white:137 black:95
-1001 draw:769 white:137 black:95
-1002 draw:770 white:137 black:95
-1003 draw:771 white:137 black:95
-1004 draw:772 white:137 black:95
-1005 draw:773 white:137 black:95
-1006 draw:774 white:137 black:95
-1007 draw:775 white:137 black:95
-1008 draw:776 white:137 black:95
-1009 draw:777 white:137 black:95
-1010 draw:777 white:137 black:96
-1011 draw:778 white:137 black:96
-1012 draw:779 white:137 black:96
-1013 draw:780 white:137 black:96
-1014 draw:781 white:137 black:96
-1015 draw:781 white:137 black:97
-1016 draw:782 white:137 black:97
-1017 draw:783 white:137 black:97
-1018 draw:784 white:137 black:97
-1019 draw:784 white:138 black:97
-1020 draw:784 white:139 black:97
-1021 draw:784 white:140 black:97
-1022 draw:785 white:140 black:97
-1023 draw:786 white:140 black:97
-1024 draw:787 white:140 black:97
-1025 draw:788 white:140 black:97
-1026 draw:789 white:140 black:97
-1027 draw:790 white:140 black:97
-1028 draw:791 white:140 black:97
-1029 draw:792 white:140 black:97
-1030 draw:792 white:141 black:97
-1031 draw:793 white:141 black:97
-1032 draw:794 white:141 black:97
-1033 draw:795 white:141 black:97
-1034 draw:796 white:141 black:97
-1035 draw:797 white:141 black:97
-1036 draw:798 white:141 black:97
-1037 draw:798 white:142 black:97
-1038 draw:799 white:142 black:97
-1039 draw:800 white:142 black:97
-1040 draw:801 white:142 black:97
-1041 draw:801 white:142 black:98
-1042 draw:802 white:142 black:98
-1043 draw:802 white:142 black:99
-1044 draw:803 white:142 black:99
-1045 draw:804 white:142 black:99
-1046 draw:805 white:142 black:99
-1047 draw:806 white:142 black:99
-1048 draw:807 white:142 black:99
-1049 draw:807 white:143 black:99
-1050 draw:807 white:143 black:100
-1051 draw:807 white:144 black:100
-1052 draw:808 white:144 black:100
-1053 draw:809 white:144 black:100
-1054 draw:810 white:144 black:100
-1055 draw:811 white:144 black:100
-1056 draw:812 white:144 black:100
-1057 draw:812 white:145 black:100
-1058 draw:813 white:145 black:100
-1059 draw:814 white:145 black:100
-1060 draw:815 white:145 black:100
-1061 draw:815 white:146 black:100
-1062 draw:816 white:146 black:100
-1063 draw:817 white:146 black:100
-1064 draw:818 white:146 black:100
-1065 draw:818 white:147 black:100
-1066 draw:819 white:147 black:100
-1067 draw:819 white:148 black:100
-1068 draw:819 white:149 black:100
-1069 draw:819 white:149 black:101
-1070 draw:819 white:150 black:101
-1071 draw:819 white:151 black:101
-1072 draw:820 white:151 black:101
-1073 draw:821 white:151 black:101
-1074 draw:822 white:151 black:101
-1075 draw:823 white:151 black:101
-1076 draw:824 white:151 black:101
-1077 draw:825 white:151 black:101
-1078 draw:825 white:152 black:101
-1079 draw:825 white:153 black:101
-1080 draw:826 white:153 black:101
-1081 draw:827 white:153 black:101
-1082 draw:828 white:153 black:101
-1083 draw:829 white:153 black:101
-1084 draw:829 white:153 black:102
-1085 draw:830 white:153 black:102
-1086 draw:831 white:153 black:102
-1087 draw:832 white:153 black:102
-1088 draw:833 white:153 black:102
-1089 draw:834 white:153 black:102
-1090 draw:835 white:153 black:102
-1091 draw:836 white:153 black:102
-1092 draw:837 white:153 black:102
-1093 draw:838 white:153 black:102
-1094 draw:838 white:153 black:103
-1095 draw:838 white:153 black:104
-1096 draw:839 white:153 black:104
-1097 draw:840 white:153 black:104
-1098 draw:841 white:153 black:104
-1099 draw:842 white:153 black:104
-1100 draw:843 white:153 black:104
-1101 draw:843 white:154 black:104
-1102 draw:843 white:154 black:105
-1103 draw:844 white:154 black:105
-1104 draw:844 white:155 black:105
-1105 draw:845 white:155 black:105
-1106 draw:845 white:155 black:106
-1107 draw:846 white:155 black:106
-1108 draw:847 white:155 black:106
-1109 draw:848 white:155 black:106
-1110 draw:849 white:155 black:106
-1111 draw:850 white:155 black:106
-1112 draw:851 white:155 black:106
-1113 draw:852 white:155 black:106
-1114 draw:853 white:155 black:106
-1115 draw:854 white:155 black:106
-1116 draw:855 white:155 black:106
-1117 draw:856 white:155 black:106
-1118 draw:857 white:155 black:106
-1119 draw:857 white:156 black:106
-1120 draw:858 white:156 black:106
-1121 draw:859 white:156 black:106
-1122 draw:860 white:156 black:106
-1123 draw:861 white:156 black:106
-1124 draw:862 white:156 black:106
-1125 draw:862 white:156 black:107
-1126 draw:863 white:156 black:107
-1127 draw:864 white:156 black:107
-1128 draw:865 white:156 black:107
-1129 draw:866 white:156 black:107
-1130 draw:867 white:156 black:107
-1131 draw:867 white:157 black:107
-1132 draw:868 white:157 black:107
-1133 draw:869 white:157 black:107
-1134 draw:870 white:157 black:107
-1135 draw:871 white:157 black:107
-1136 draw:872 white:157 black:107
-1137 draw:873 white:157 black:107
-1138 draw:874 white:157 black:107
-1139 draw:875 white:157 black:107
-1140 draw:876 white:157 black:107
-1141 draw:877 white:157 black:107
-1142 draw:878 white:157 black:107
-1143 draw:878 white:158 black:107
-1144 draw:878 white:158 black:108
-1145 draw:878 white:158 black:109
-1146 draw:879 white:158 black:109
-1147 draw:879 white:159 black:109
-1148 draw:880 white:159 black:109
-1149 draw:880 white:159 black:110
-1150 draw:881 white:159 black:110
-1151 draw:882 white:159 black:110
-1152 draw:883 white:159 black:110
-1153 draw:883 white:160 black:110
-1154 draw:884 white:160 black:110
-1155 draw:885 white:160 black:110
-1156 draw:885 white:161 black:110
-1157 draw:885 white:162 black:110
-1158 draw:885 white:162 black:111
-1159 draw:886 white:162 black:111
-1160 draw:887 white:162 black:111
-1161 draw:888 white:162 black:111
-1162 draw:888 white:163 black:111
-1163 draw:889 white:163 black:111
-1164 draw:890 white:163 black:111
-1165 draw:891 white:163 black:111
-1166 draw:892 white:163 black:111
-1167 draw:893 white:163 black:111
-1168 draw:894 white:163 black:111
-1169 draw:895 white:163 black:111
-1170 draw:896 white:163 black:111
-1171 draw:896 white:164 black:111
-1172 draw:897 white:164 black:111
-1173 draw:897 white:165 black:111
-1174 draw:898 white:165 black:111
-1175 draw:899 white:165 black:111
-1176 draw:900 white:165 black:111
-1177 draw:900 white:165 black:112
-1178 draw:901 white:165 black:112
-1179 draw:902 white:165 black:112
-1180 draw:902 white:166 black:112
-1181 draw:903 white:166 black:112
-1182 draw:903 white:167 black:112
-1183 draw:904 white:167 black:112
-1184 draw:904 white:168 black:112
-1185 draw:905 white:168 black:112
-1186 draw:905 white:169 black:112
-1187 draw:906 white:169 black:112
-1188 draw:907 white:169 black:112
-1189 draw:907 white:169 black:113
-1190 draw:908 white:169 black:113
-1191 draw:909 white:169 black:113
-1192 draw:910 white:169 black:113
-1193 draw:910 white:170 black:113
-1194 draw:911 white:170 black:113
-1195 draw:911 white:170 black:114
-1196 draw:912 white:170 black:114
-1197 draw:913 white:170 black:114
-1198 draw:914 white:170 black:114
-1199 draw:915 white:170 black:114
-1200 draw:916 white:170 black:114
-1201 draw:916 white:171 black:114
-1202 draw:917 white:171 black:114
-1203 draw:918 white:171 black:114
-1204 draw:919 white:171 black:114
-1205 draw:920 white:171 black:114
-1206 draw:921 white:171 black:114
-1207 draw:922 white:171 black:114
-1208 draw:923 white:171 black:114
-1209 draw:923 white:171 black:115
-1210 draw:924 white:171 black:115
-1211 draw:925 white:171 black:115
-1212 draw:926 white:171 black:115
-1213 draw:927 white:171 black:115
-1214 draw:927 white:172 black:115
-1215 draw:927 white:172 black:116
-1216 draw:928 white:172 black:116
-1217 draw:928 white:172 black:117
-1218 draw:929 white:172 black:117
-1219 draw:929 white:173 black:117
-1220 draw:930 white:173 black:117
-1221 draw:931 white:173 black:117
-1222 draw:932 white:173 black:117
-1223 draw:933 white:173 black:117
-1224 draw:933 white:174 black:117
-1225 draw:933 white:174 black:118
-1226 draw:934 white:174 black:118
-1227 draw:934 white:174 black:119
-1228 draw:934 white:175 black:119
-1229 draw:934 white:176 black:119
-1230 draw:935 white:176 black:119
-1231 draw:935 white:176 black:120
-1232 draw:936 white:176 black:120
-1233 draw:937 white:176 black:120
-1234 draw:937 white:177 black:120
-1235 draw:937 white:177 black:121
-1236 draw:938 white:177 black:121
-1237 draw:938 white:178 black:121
-1238 draw:938 white:179 black:121
-1239 draw:939 white:179 black:121
-1240 draw:940 white:179 black:121
-1241 draw:940 white:180 black:121
-1242 draw:940 white:180 black:122
-1243 draw:940 white:181 black:122
-1244 draw:940 white:181 black:123
-1245 draw:941 white:181 black:123
-1246 draw:942 white:181 black:123
-1247 draw:942 white:181 black:124
-1248 draw:943 white:181 black:124
-1249 draw:944 white:181 black:124
-1250 draw:945 white:181 black:124
-1251 draw:946 white:181 black:124
-1252 draw:946 white:182 black:124
-1253 draw:946 white:182 black:125
-1254 draw:947 white:182 black:125
-1255 draw:948 white:182 black:125
-1256 draw:948 white:182 black:126
-1257 draw:949 white:182 black:126
-1258 draw:950 white:182 black:126
-1259 draw:951 white:182 black:126
-1260 draw:951 white:182 black:127
-1261 draw:952 white:182 black:127
-1262 draw:953 white:182 black:127
-1263 draw:953 white:182 black:128
-1264 draw:953 white:182 black:129
-1265 draw:953 white:183 black:129
-1266 draw:954 white:183 black:129
-1267 draw:955 white:183 black:129
-1268 draw:956 white:183 black:129
-1269 draw:956 white:183 black:130
-1270 draw:956 white:184 black:130
-1271 draw:957 white:184 black:130
-1272 draw:958 white:184 black:130
-1273 draw:959 white:184 black:130
-1274 draw:959 white:184 black:131
-1275 draw:960 white:184 black:131
-1276 draw:961 white:184 black:131
-1277 draw:961 white:184 black:132
-1278 draw:962 white:184 black:132
-1279 draw:963 white:184 black:132
-1280 draw:964 white:184 black:132
-1281 draw:965 white:184 black:132
-1282 draw:966 white:184 black:132
-1283 draw:966 white:185 black:132
-1284 draw:967 white:185 black:132
-1285 draw:968 white:185 black:132
-1286 draw:969 white:185 black:132
-1287 draw:970 white:185 black:132
-1288 draw:971 white:185 black:132
-1289 draw:972 white:185 black:132
-1290 draw:973 white:185 black:132
-1291 draw:974 white:185 black:132
-1292 draw:975 white:185 black:132
-1293 draw:976 white:185 black:132
-1294 draw:977 white:185 black:132
-1295 draw:977 white:186 black:132
-1296 draw:978 white:186 black:132
-1297 draw:979 white:186 black:132
-1298 draw:980 white:186 black:132
-1299 draw:980 white:187 black:132
-1300 draw:980 white:187 black:133
-1301 draw:981 white:187 black:133
-1302 draw:982 white:187 black:133
-1303 draw:983 white:187 black:133
-1304 draw:984 white:187 black:133
-1305 draw:985 white:187 black:133
-1306 draw:986 white:187 black:133
-1307 draw:987 white:187 black:133
-1308 draw:988 white:187 black:133
-1309 draw:988 white:188 black:133
-1310 draw:988 white:189 black:133
-1311 draw:988 white:190 black:133
-1312 draw:989 white:190 black:133
-1313 draw:990 white:190 black:133
-1314 draw:991 white:190 black:133
-1315 draw:992 white:190 black:133
-1316 draw:993 white:190 black:133
-1317 draw:994 white:190 black:133
-1318 draw:995 white:190 black:133
-1319 draw:995 white:191 black:133
-1320 draw:996 white:191 black:133
-1321 draw:997 white:191 black:133
-1322 draw:998 white:191 black:133
-1323 draw:999 white:191 black:133
-1324 draw:1000 white:191 black:133
-1325 draw:1001 white:191 black:133
-1326 draw:1001 white:192 black:133
-1327 draw:1002 white:192 black:133
-1328 draw:1003 white:192 black:133
-1329 draw:1004 white:192 black:133
-1330 draw:1005 white:192 black:133
-1331 draw:1006 white:192 black:133
-1332 draw:1007 white:192 black:133
-1333 draw:1007 white:193 black:133
-1334 draw:1008 white:193 black:133
-1335 draw:1009 white:193 black:133
-1336 draw:1010 white:193 black:133
-1337 draw:1011 white:193 black:133
-1338 draw:1012 white:193 black:133
-1339 draw:1013 white:193 black:133
-1340 draw:1013 white:194 black:133
-1341 draw:1014 white:194 black:133
-1342 draw:1015 white:194 black:133
-1343 draw:1016 white:194 black:133
-1344 draw:1017 white:194 black:133
-1345 draw:1018 white:194 black:133
-1346 draw:1018 white:195 black:133
-1347 draw:1019 white:195 black:133
-1348 draw:1019 white:195 black:134
-1349 draw:1020 white:195 black:134
-1350 draw:1020 white:195 black:135
-1351 draw:1021 white:195 black:135
-1352 draw:1022 white:195 black:135
-1353 draw:1023 white:195 black:135
-1354 draw:1023 white:195 black:136
-1355 draw:1024 white:195 black:136
-1356 draw:1025 white:195 black:136
-1357 draw:1026 white:195 black:136
-1358 draw:1026 white:196 black:136
-1359 draw:1027 white:196 black:136
-1360 draw:1028 white:196 black:136
-1361 draw:1028 white:197 black:136
-1362 draw:1029 white:197 black:136
-1363 draw:1030 white:197 black:136
-1364 draw:1031 white:197 black:136
-1365 draw:1032 white:197 black:136
-1366 draw:1032 white:197 black:137
-1367 draw:1033 white:197 black:137
-1368 draw:1033 white:198 black:137
-1369 draw:1033 white:198 black:138
-1370 draw:1034 white:198 black:138
-1371 draw:1035 white:198 black:138
-1372 draw:1036 white:198 black:138
-1373 draw:1037 white:198 black:138
-1374 draw:1037 white:198 black:139
-1375 draw:1037 white:198 black:140
-1376 draw:1038 white:198 black:140
-1377 draw:1039 white:198 black:140
-1378 draw:1040 white:198 black:140
-1379 draw:1040 white:198 black:141
-1380 draw:1041 white:198 black:141
-1381 draw:1042 white:198 black:141
-1382 draw:1042 white:198 black:142
-1383 draw:1043 white:198 black:142
-1384 draw:1044 white:198 black:142
-1385 draw:1044 white:198 black:143
-1386 draw:1045 white:198 black:143
-1387 draw:1046 white:198 black:143
-1388 draw:1047 white:198 black:143
-1389 draw:1047 white:198 black:144
-1390 draw:1048 white:198 black:144
-1391 draw:1048 white:198 black:145
-1392 draw:1049 white:198 black:145
-1393 draw:1050 white:198 black:145
-1394 draw:1051 white:198 black:145
-1395 draw:1052 white:198 black:145
-1396 draw:1053 white:198 black:145
-1397 draw:1054 white:198 black:145
-1398 draw:1055 white:198 black:145
-1399 draw:1056 white:198 black:145
-1400 draw:1057 white:198 black:145
-1401 draw:1058 white:198 black:145
-1402 draw:1059 white:198 black:145
-1403 draw:1060 white:198 black:145
-1404 draw:1061 white:198 black:145
-1405 draw:1061 white:198 black:146
-1406 draw:1062 white:198 black:146
-1407 draw:1063 white:198 black:146
-1408 draw:1064 white:198 black:146
-1409 draw:1065 white:198 black:146
-1410 draw:1066 white:198 black:146
-1411 draw:1067 white:198 black:146
-1412 draw:1068 white:198 black:146
-1413 draw:1068 white:199 black:146
-1414 draw:1069 white:199 black:146
-1415 draw:1070 white:199 black:146
-1416 draw:1071 white:199 black:146
-1417 draw:1072 white:199 black:146
-1418 draw:1072 white:199 black:147
-1419 draw:1073 white:199 black:147
-1420 draw:1074 white:199 black:147
-1421 draw:1075 white:199 black:147
-1422 draw:1076 white:199 black:147
-1423 draw:1077 white:199 black:147
-1424 draw:1078 white:199 black:147
-1425 draw:1079 white:199 black:147
-1426 draw:1080 white:199 black:147
-1427 draw:1081 white:199 black:147
-1428 draw:1082 white:199 black:147
-1429 draw:1083 white:199 black:147
-1430 draw:1083 white:200 black:147
-1431 draw:1084 white:200 black:147
-1432 draw:1085 white:200 black:147
-1433 draw:1085 white:201 black:147
-1434 draw:1086 white:201 black:147
-1435 draw:1087 white:201 black:147
-1436 draw:1088 white:201 black:147
-1437 draw:1089 white:201 black:147
-1438 draw:1089 white:201 black:148
-1439 draw:1090 white:201 black:148
-1440 draw:1091 white:201 black:148
-1441 draw:1092 white:201 black:148
+1 draw:0 white:1(0) black:0(0)
+random:55/AI:6(10%) last:random
+0.17999887466430664
+2 draw:1 white:1(0) black:0(0)
+random:96/AI:12(12%) last:random
+0.12451839447021484
+3 draw:2 white:1(0) black:0(0)
+random:82/AI:10(11%) last:random
+0.1399979591369629
+4 draw:3 white:1(0) black:0(0)
+random:153/AI:17(10%) last:random
+0.13699698448181152
+5 draw:4 white:1(0) black:0(0)
+random:166/AI:23(13%) last:random
+0.1159977912902832
+6 draw:5 white:1(0) black:0(0)
+random:96/AI:21(18%) last:random
+0.12299990653991699
+7 draw:6 white:1(0) black:0(0)
+random:110/AI:9(8%) last:random
+0.12099766731262207
+8 draw:7 white:1(0) black:0(0)
+random:110/AI:18(15%) last:random
+0.1420001983642578
+9 draw:8 white:1(0) black:0(0)
+random:146/AI:22(14%) last:random
+0.1459980010986328
+10 draw:9 white:1(0) black:0(0)
+random:116/AI:9(8%) last:random
+0.13699889183044434
+11 draw:10 white:1(0) black:0(0)
+random:127/AI:19(14%) last:random
+0.1419966220855713
+12 draw:11 white:1(0) black:0(0)
+random:108/AI:14(12%) last:random
+0.14099717140197754
+13 draw:12 white:1(0) black:0(0)
+random:105/AI:15(13%) last:random
+0.1549994945526123
+14 draw:12 white:2(0) black:0(0)
+random:51/AI:3(6%) last:random
+0.1119999885559082
+15 draw:13 white:2(0) black:0(0)
+random:118/AI:7(6%) last:random
+0.13300037384033203
+16 draw:13 white:2(0) black:1(0)
+random:28/AI:1(4%) last:random
+0.13199996948242188
+17 draw:13 white:2(0) black:2(0)
+random:72/AI:15(18%) last:AI
+0.16899943351745605
+18 draw:14 white:2(0) black:2(1)
+random:38/AI:5(12%) last:random
+0.11999917030334473
+19 draw:15 white:2(0) black:2(1)
+random:124/AI:19(14%) last:random
+0.15199947357177734
+20 draw:16 white:2(0) black:2(1)
+random:108/AI:15(13%) last:random
+0.15200018882751465
+21 draw:16 white:3(0) black:2(1)
+random:93/AI:6(7%) last:random
+0.14299893379211426
+22 draw:17 white:3(0) black:2(1)
+random:115/AI:14(11%) last:random
+0.1399996280670166
+23 draw:18 white:3(0) black:2(1)
+random:112/AI:11(9%) last:random
+0.13300037384033203
+24 draw:18 white:3(0) black:3(1)
+random:60/AI:3(5%) last:random
+0.1659996509552002
+25 draw:19 white:3(0) black:3(1)
+random:141/AI:13(9%) last:random
+0.1510004997253418
+26 draw:20 white:3(0) black:3(1)
+random:100/AI:16(14%) last:random
+0.15199875831604004
+27 draw:21 white:3(0) black:3(1)
+random:128/AI:9(7%) last:AI
+0.14999938011169434
+28 draw:22 white:3(0) black:3(1)
+random:115/AI:7(6%) last:random
+0.1510002613067627
+29 draw:22 white:4(0) black:3(1)
+random:104/AI:11(10%) last:random
+0.1419997215270996
+30 draw:22 white:4(0) black:4(1)
+random:65/AI:6(9%) last:random
+0.13899970054626465
+31 draw:23 white:4(0) black:4(1)
+random:130/AI:16(11%) last:random
+0.1569995880126953
+32 draw:24 white:4(0) black:4(1)
+random:121/AI:19(14%) last:random
+0.1460118293762207
+33 draw:25 white:4(0) black:4(1)
+random:149/AI:17(11%) last:random
+0.1510007381439209
+34 draw:26 white:4(0) black:4(1)
+random:78/AI:8(10%) last:random
+0.13900017738342285
+35 draw:27 white:4(0) black:4(1)
+random:69/AI:13(16%) last:random
+0.1139993667602539
+36 draw:28 white:4(0) black:4(1)
+random:135/AI:17(12%) last:random
+0.15599870681762695
+37 draw:29 white:4(0) black:4(1)
+random:111/AI:13(11%) last:random
+0.16199970245361328
+38 draw:30 white:4(0) black:4(1)
+random:53/AI:14(21%) last:AI
+0.1340019702911377
+39 draw:31 white:4(0) black:4(1)
+random:132/AI:16(11%) last:random
+0.14299941062927246
+40 draw:31 white:5(0) black:4(1)
+random:35/AI:8(19%) last:random
+0.12602519989013672
+41 draw:32 white:5(0) black:4(1)
+random:114/AI:20(15%) last:random
+0.15092897415161133
+42 draw:33 white:5(0) black:4(1)
+random:120/AI:17(13%) last:random
+0.17199969291687012
+43 draw:34 white:5(0) black:4(1)
+random:105/AI:13(12%) last:random
+0.1419997215270996
+44 draw:35 white:5(0) black:4(1)
+random:118/AI:12(10%) last:random
+0.15498757362365723
+45 draw:36 white:5(0) black:4(1)
+random:152/AI:18(11%) last:random
+0.15799975395202637
+46 draw:37 white:5(0) black:4(1)
+random:130/AI:17(12%) last:random
+0.13500213623046875
+47 draw:37 white:6(0) black:4(1)
+random:54/AI:11(17%) last:random
+0.12799978256225586
+48 draw:38 white:6(0) black:4(1)
+random:95/AI:8(8%) last:random
+0.14699935913085938
+49 draw:39 white:6(0) black:4(1)
+random:96/AI:10(10%) last:random
+0.14100074768066406
+50 draw:40 white:6(0) black:4(1)
+random:132/AI:14(10%) last:random
+0.16899895668029785
+51 draw:41 white:6(0) black:4(1)
+random:119/AI:11(9%) last:AI
+0.17699980735778809
+52 draw:42 white:6(0) black:4(1)
+random:110/AI:23(18%) last:random
+0.14799928665161133
+53 draw:43 white:6(0) black:4(1)
+random:106/AI:13(11%) last:random
+0.15298700332641602
+54 draw:44 white:6(0) black:4(1)
+random:124/AI:20(14%) last:random
+0.15899944305419922
+55 draw:44 white:7(0) black:4(1)
+random:28/AI:5(16%) last:AI
+0.127000093460083
+56 draw:45 white:7(1) black:4(1)
+random:130/AI:19(13%) last:random
+0.13300013542175293
+57 draw:45 white:8(1) black:4(1)
+random:102/AI:12(11%) last:AI
+0.15498685836791992
+58 draw:45 white:8(2) black:5(1)
+random:33/AI:5(14%) last:random
+0.15599942207336426
+59 draw:46 white:8(2) black:5(1)
+random:137/AI:28(17%) last:random
+0.12999939918518066
+60 draw:46 white:8(2) black:6(1)
+random:50/AI:9(16%) last:random
+0.13599944114685059
+61 draw:47 white:8(2) black:6(1)
+random:159/AI:19(11%) last:random
+0.14999938011169434
+62 draw:48 white:8(2) black:6(1)
+random:126/AI:21(15%) last:random
+0.17099952697753906
+63 draw:49 white:8(2) black:6(1)
+random:121/AI:18(13%) last:random
+0.13299965858459473
+64 draw:49 white:8(2) black:7(1)
+random:56/AI:7(12%) last:random
+0.1379997730255127
+65 draw:50 white:8(2) black:7(1)
+random:124/AI:11(9%) last:random
+0.16499829292297363
+66 draw:51 white:8(2) black:7(1)
+random:103/AI:19(16%) last:random
+0.14499902725219727
+67 draw:51 white:8(2) black:8(1)
+random:30/AI:2(7%) last:random
+0.16399860382080078
+68 draw:51 white:8(2) black:9(1)
+random:69/AI:9(12%) last:random
+0.1269998550415039
+69 draw:51 white:8(2) black:10(1)
+random:69/AI:5(7%) last:random
+0.1295311450958252
+70 draw:52 white:8(2) black:10(1)
+random:146/AI:25(15%) last:random
+0.14800000190734863
+71 draw:53 white:8(2) black:10(1)
+random:126/AI:21(15%) last:AI
+0.12999987602233887
+72 draw:54 white:8(2) black:10(1)
+random:103/AI:13(12%) last:random
+0.14799928665161133
+73 draw:55 white:8(2) black:10(1)
+random:117/AI:15(12%) last:random
+0.13899970054626465
+1 draw:1 white:0(0) black:0(0)
+random:105/AI:18(15%) last:AI
+0.0
+2 draw:2 white:0(0) black:0(0)
+random:100/AI:14(13%) last:random
+0.0
+3 draw:3 white:0(0) black:0(0)
+random:92/AI:13(13%) last:random
+0.0
+4 draw:3 white:1(0) black:0(0)
+random:51/AI:6(11%) last:random
+0.0
+5 draw:4 white:1(0) black:0(0)
+random:97/AI:10(10%) last:random
+0.0
+6 draw:5 white:1(0) black:0(0)
+random:111/AI:7(6%) last:random
+0.0
+7 draw:6 white:1(0) black:0(0)
+random:92/AI:7(8%) last:random
+0.0
+8 draw:7 white:1(0) black:0(0)
+random:139/AI:20(13%) last:random
+0.0
+9 draw:8 white:1(0) black:0(0)
+random:165/AI:12(7%) last:random
+0.0
+10 draw:9 white:1(0) black:0(0)
+random:103/AI:15(13%) last:random
+0.0
+11 draw:9 white:2(0) black:0(0)
+random:112/AI:9(8%) last:AI
+0.0
+12 draw:10 white:2(1) black:0(0)
+random:94/AI:20(18%) last:random
+0.0
+13 draw:10 white:2(1) black:1(0)
+random:50/AI:3(6%) last:random
+0.0
+14 draw:11 white:2(1) black:1(0)
+random:146/AI:19(12%) last:random
+0.0
+1 draw:1 white:0(0) black:0(0)
+random:105/AI:18(15%) last:random
+0.0
+2 draw:2 white:0(0) black:0(0)
+random:103/AI:11(10%) last:random
+0.0
+3 draw:2 white:0(0) black:1(0)
+random:67/AI:10(13%) last:random
+0.0
+4 draw:3 white:0(0) black:1(0)
+random:112/AI:17(14%) last:random
+0.0
+5 draw:4 white:0(0) black:1(0)
+random:127/AI:6(5%) last:random
+0.0
+6 draw:5 white:0(0) black:1(0)
+random:112/AI:11(9%) last:random
+0.0
+7 draw:6 white:0(0) black:1(0)
+random:78/AI:14(16%) last:random
+0.0
+8 draw:7 white:0(0) black:1(0)
+random:114/AI:10(9%) last:random
+0.0
+9 draw:8 white:0(0) black:1(0)
+random:139/AI:14(10%) last:random
+3.845604419708252
+10 draw:9 white:0(0) black:1(0)
+random:111/AI:18(14%) last:random
+3.808096170425415
+11 draw:10 white:0(0) black:1(0)
+random:74/AI:14(16%) last:random
+3.8807694911956787
+12 draw:11 white:0(0) black:1(0)
+random:120/AI:15(12%) last:random
+3.7571187019348145
+13 draw:12 white:0(0) black:1(0)
+random:126/AI:16(12%) last:random
+3.7225184440612793
+14 draw:12 white:0(0) black:2(0)
+random:83/AI:8(9%) last:random
+3.767199754714966
+15 draw:13 white:0(0) black:2(0)
+random:55/AI:7(12%) last:random
+3.706982374191284
+16 draw:13 white:0(0) black:3(0)
+random:54/AI:5(9%) last:random
+3.7741470336914062
+17 draw:13 white:0(0) black:4(0)
+random:85/AI:18(18%) last:random
+3.9628031253814697
+18 draw:14 white:0(0) black:4(0)
+random:113/AI:13(11%) last:random
+3.777139663696289
+19 draw:15 white:0(0) black:4(0)
+random:96/AI:9(9%) last:random
+3.865342378616333
+20 draw:16 white:0(0) black:4(0)
+random:118/AI:11(9%) last:AI
+3.803013801574707
+21 draw:17 white:0(0) black:4(0)
+random:107/AI:9(8%) last:random
+3.807720184326172
+22 draw:18 white:0(0) black:4(0)
+random:115/AI:15(12%) last:random
+3.6812193393707275
+23 draw:19 white:0(0) black:4(0)
+random:157/AI:25(14%) last:random
+3.7864460945129395
+24 draw:20 white:0(0) black:4(0)
+random:122/AI:8(7%) last:random
+3.770662546157837
+25 draw:21 white:0(0) black:4(0)
+random:116/AI:7(6%) last:random
+3.6657328605651855
+26 draw:22 white:0(0) black:4(0)
+random:100/AI:15(14%) last:random
+3.709522247314453
+27 draw:23 white:0(0) black:4(0)
+random:110/AI:14(12%) last:random
+3.6521623134613037
+28 draw:24 white:0(0) black:4(0)
+random:144/AI:18(12%) last:random
+3.773308277130127
+29 draw:25 white:0(0) black:4(0)
+random:81/AI:16(17%) last:random
+3.846419334411621
+30 draw:25 white:1(0) black:4(0)
+random:46/AI:8(15%) last:random
+3.7622201442718506
+31 draw:25 white:2(0) black:4(0)
+random:66/AI:10(14%) last:random
+3.7769885063171387
+32 draw:26 white:2(0) black:4(0)
+random:98/AI:9(9%) last:random
+3.8100123405456543
+33 draw:27 white:2(0) black:4(0)
+random:120/AI:8(7%) last:random
+3.7193522453308105
+34 draw:28 white:2(0) black:4(0)
+random:127/AI:12(9%) last:random
+3.7916464805603027
+35 draw:29 white:2(0) black:4(0)
+random:108/AI:10(9%) last:AI
+3.7273809909820557
+36 draw:30 white:2(0) black:4(0)
+random:127/AI:16(12%) last:random
+3.73551607131958
