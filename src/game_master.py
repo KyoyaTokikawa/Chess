@@ -93,6 +93,10 @@ class master():
             state = torch.from_numpy(state).type(torch.FloatTensor)
             state = torch.unsqueeze(state, 0).to(self.device)
             start = time.time()
+            self.white.random_count = 0
+            self.white.AI_count = 0
+            self.black.random_count = 0
+            self.black.AI_count = 0
             while True:
                 # self.Board.print_board()
                 if self.turn == self.white:
@@ -122,7 +126,7 @@ class master():
                         if val in player.move_dic:
                             legal_list.append(key)
                     if self.turn == self.white:
-                        key = player.agent.get_action(state, gameNo, legal_list)
+                        key, player.random_count, player.AI_count, random_or_AI = player.agent.get_action(state, gameNo, legal_list, player.random_count, player.AI_count)
                         next_legal = legal_list
                         rec = self.gamerecord_dic[key]
                     else:
@@ -146,7 +150,7 @@ class master():
                     state_next = torch.from_numpy(state_next).type(torch.FloatTensor)
                     state = state_next.to(self.device)
                     temp_next_legal = []
-                    player.temp_memory.append([state, key, state_next, temp_next_legal, self.count * player.agent.reward_rate])
+                    player.temp_memory.append([state, key, state_next, temp_next_legal, self.count * player.agent.reward_rate, player.random_count, player.AI_count, random_or_AI])
                     if self.turn == self.white:
                         if len(enemy.temp_memory) > 0:
                             enemy.temp_memory[len(enemy.temp_memory) - 1][3] = list(next_legal)

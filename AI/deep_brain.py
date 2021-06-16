@@ -10,7 +10,7 @@ from collections import namedtuple
 from .deep_net import *
 from .ReplayMemory import *
 from src.util import *
-
+import math
 Transition = namedtuple('Transicion', ('state', 'action', 'next_state', 'next_action', 'reward'))
 
 
@@ -36,7 +36,7 @@ class Brain:
         # 最適化手法の設定
         if param[0] == 'Adam':
             self.optimizer = optim.Adam(self.model.parameters(), lr=0.001)
-        elif param[1] == 'SGD':
+        elif param[0] == 'SGD':
             self.optimizer = optim.SGD(self.model.parameters(), lr=0.001)
     def replay(self):
         '''Experience Replayでネットワークの結合パラメータを出力'''
@@ -123,7 +123,7 @@ class Brain:
         # expected_state_action_valuesは
         # sizeが[minbatch]になっているから、unsqueezeで[minbatch x 1]へ
         loss = F.smooth_l1_loss(state_action_values, expected_state_action_values.unsqueeze(1)).to(self.device)
-        print(loss.item())
+        # print(loss.item())
         # 4.3 結合パラメータを更新する
         self.optimizer.zero_grad() # 勾配をリセット
         loss.backward() # バックプロパゲーションを計算
@@ -133,11 +133,22 @@ class Brain:
         # モデルの重みをtarget_networkにコピー
         self.target_net.load_state_dict(self.model.state_dict())
     
-    def decide_action(self, state, episode, legal_list):
+    def decide_action(self, state, episode, legal_list, random_count, AI_count):
         '''現在の状態に応じて、行動を決定する'''
+        EPS_START = 0.9
+        EPS_END = 0.05
+        sample = random.random()
+        EPS_DECAY = 2000
+        random_or_AI = ''
+        eps_threshold = EPS_END + (EPS_START - EPS_END) * \
+            math.exp(-1. * episode / EPS_DECAY)
+
         epsilon = 0.41 * (1 / (episode * self.epsilonrate + 1))
         
-        if epsilon <= np.random.uniform(0, 1):
+        if sample > eps_threshold:
+        # if epsilon <= np.random.uniform(0, 1):
+            AI_count += 1
+            random_or_AI = 'AI'
             self.model.eval()
             with torch.no_grad():
                 action = self.model(state)
@@ -156,10 +167,12 @@ class Brain:
         
         else:
             # 0, 1の行動をランダムに返す
+            random_count += 1
+            random_or_AI = 'random'
             key = random.choice(legal_list)
             action = key
             # actionは[torch.LongTensor of size 1x1]の形になる
-        return action
+        return action, random_count, AI_count, random_or_AI
     
     def brain_predict(self, state):
         self.model.eval() # ネットワークを推論モードに切り替える

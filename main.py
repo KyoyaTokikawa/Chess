@@ -10,7 +10,7 @@ white_agent = Agent(64, len(gamerecord_dic), parameter)
 black_agent = Agent(64, len(gamerecord_dic), parameter)
 
 
-
+AI_count = 0
 draw = 0
 white_win = 0
 black_win = 0
@@ -48,6 +48,9 @@ while True:
             white_result = 'white:' + str(white_win)
             black_result = 'black:' + str(black_win) 
             print(str(gameNo) + ' ' + draw_result + ' ' + white_result + ' ' + black_result, file=f)
-        print(str(gameNo) + ' ' + draw_result + ' ' + white_result + ' ' + black_result)
+        if w_val[7] == 'AI' and much == 1:
+            AI_count += 1
+        print(str(gameNo) + ' ' + draw_result + ' ' + white_result + '(' + str(AI_count) + ')' + ' ' + black_result)
+        print('random' + ':' + str(w_val[5]) + '/' +'AI' + ':' + str(w_val[6]) +'(' + str(math.ceil(w_val[6] / (w_val[5] + w_val[6]) * 100)) +'%)' + ' last:' + w_val[7])
 
 

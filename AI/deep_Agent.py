@@ -16,10 +16,10 @@ class Agent:
     def update_target_model(self):
         self.brain.update_target_model()
         
-    def get_action(self, state, episode, attck_move_dic):
+    def get_action(self, state, episode, attck_move_dic, random_count, AI_count):
         '''行動を決定する'''
-        action = self.brain.decide_action(state, episode, attck_move_dic)
-        return action
+        action, random_count, AI_count, random_or_AI = self.brain.decide_action(state, episode, attck_move_dic, random_count, AI_count)
+        return action, random_count, AI_count, random_or_AI
     
     def memorize(self, state, action, state_next, next_action, reward):
         '''memoryオブジェクトに、state, action, state_next, rewardの内容を保存する'''

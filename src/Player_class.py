@@ -7,6 +7,8 @@ class player():
         self.player = player
         self.enemy = None
         self.agent = Agent
+        self.random_count = 0
+        self.AI_count = 0
         if player == 1:
             self.flag = 'W'
             self.name = 'white'
