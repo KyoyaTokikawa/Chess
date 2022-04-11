@@ -9,6 +9,7 @@ parameter = sample_a
 white_agent = Agent(64, len(gamerecord_dic), parameter)
 black_agent = Agent(64, len(gamerecord_dic), parameter)
 
+print('test')
 
 AI_count_win = 0
 AI_count_lose = 0
